@@ -1,6 +1,12 @@
 import React from "react";
 import Navigation from "../components/navigations/Navigation";
+import NavigationApp from "../components/navigations/NavigationApp";
+import NavigationCenter from "../components/navigations/NavigationCenter";
 import NavigationDropdown from "../components/navigations/NavigationDropdown";
+import NavigationIconLeft from "../components/navigations/NavigationIconLeft";
+import NavigationIconRight from "../components/navigations/NavigationIconRight";
+import NavigationLeft from "../components/navigations/NavigationLeft";
+import NavigationRight from "../components/navigations/NavigationRight";
 
 function NavList() {
   return (
@@ -13,6 +19,30 @@ function NavList() {
                     <div className="mb-4">
                         <h1>Cards</h1>
                         <NavigationDropdown />                                   
+                    </div>
+                    <div className="mb-4">
+                        <h1>Cards</h1>
+                        <NavigationIconLeft />                                   
+                    </div>
+                    <div className="mb-4">
+                        <h1>Cards</h1>
+                        <NavigationIconRight />                                   
+                    </div>
+                    <div className="mb-4">
+                        <h1>Cards</h1>
+                        <NavigationApp />                                   
+                    </div>
+                    <div className="mb-4">
+                        <h1>Cards</h1>
+                        <NavigationLeft />                                   
+                    </div>
+                    <div className="mb-4">
+                        <h1>Cards</h1>
+                        <NavigationRight />                                   
+                    </div>
+                    <div className="mb-4">
+                        <h1>Cards</h1>
+                        <NavigationCenter />                                   
                     </div>
                 </div>
         </div>

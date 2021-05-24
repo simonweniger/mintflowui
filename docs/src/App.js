@@ -19,6 +19,8 @@ import DrawerList from "./pages/DrawerList";
 import NavList from "./pages/NavList";
 import DropdownList from "./pages/DropdownList";
 import HeroList from "./pages/HeroList";
+import MenuList from "./pages/MenuList";
+import ModalList from "./pages/ModalList";
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
                 <Route path="/navigation" component={NavList} />
                 <Route path="/dropdown" component={DropdownList} />
                 <Route path="/hero" component={HeroList} />
+                <Route path="/menu" component={MenuList} />
+                <Route path="/modal" component={ModalList} />
               </Switch>
             </div>
           </div>
