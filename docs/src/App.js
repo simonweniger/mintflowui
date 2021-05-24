@@ -24,6 +24,7 @@ import ModalList from "./pages/ModalList";
 import ProgressList from "./pages/ProgressList";
 import TabList from "./pages/TabList";
 import InputList from "./pages/InputList";
+import CheckboxList from "./pages/CheckboxList";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
                 <Route path="/modal" component={ModalList} />
                 <Route path="/progress" component={ProgressList} />
                 <Route path="/tab" component={TabList} />
+                <Route path="/checkbox" component={CheckboxList} />
                 <Route path="/inputs" component={InputList} />
               </Switch>
             </div>

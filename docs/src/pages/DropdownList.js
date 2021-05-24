@@ -13,49 +13,49 @@ import DropdownTopEnd from "../components/dropdowns/DropdownTopEnd";
 
 function NavList() {
   return (
-        <div className="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
-                <div className="w-full">
-                    <div className="mb-4">
+        <div className="overflow-auto h-screen pb-44 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
+                <div className="w-full space-y-10">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <Dropdown />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownEnd />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownLeft />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownLeftEnd />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownRight />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownRightEnd />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownTop />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownTopEnd />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownOpen />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownHover />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <DropdownHelper />                                   
                     </div>

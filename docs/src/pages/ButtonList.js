@@ -28,105 +28,105 @@ import ButtonWideTiny from "../components/buttons/ButtonWideTiny";
 
 function ButtonList() {
   return (
-        <div className="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
-                <div className="w-full">
-                    <div className="mb-4">
+        <div className="overflow-auto h-screen pb-44 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
+                <div className="w-full space-y-10">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonBrand />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonActive />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonOutline />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonDisabled />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonStates />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonResponsive />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonGlass />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonHTMLTags />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonSize />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonWideLarge />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonWide />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonWideSmall />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonWideTiny />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonIconStart />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonIconEnd />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonRounded />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonSquare />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonRoundedOutline />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonSquareOutline />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonBlock />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonLoading />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonLoadingOutline />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonLoadingSquare />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonLoadingRounded />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <ButtonDisabledAnnimation />                                   
                     </div>

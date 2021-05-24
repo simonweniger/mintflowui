@@ -7,25 +7,25 @@ import CheckboxSecondary from "../components/checkboxs/CheckboxSecondary";
 
 function CheckboxList() {
   return (
-        <div className="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
-                <div className="w-full">
-                    <div className="mb-4">
+        <div className="overflow-auto h-screen pb-44 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
+                <div className="w-full space-y-10">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <Checkbox />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <CheckboxPrimary />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <CheckboxSecondary />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <CheckboxAccent />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <CheckboxDisabled />                                   
                     </div>

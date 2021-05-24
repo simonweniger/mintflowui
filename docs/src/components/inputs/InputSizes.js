@@ -2,7 +2,7 @@ import React from "react";
 
 function InputSizes() {
   return (
-    <div className="flex-wrap space-y-6">
+    <div className="flex-wrap space-y-4">
       <div class="form-control">
         <label class="label">
           <span class="label-text">Large</span>

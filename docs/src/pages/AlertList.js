@@ -10,37 +10,37 @@ import AlertText from "../components/alerts/AlertText";
 
 function AlertList() {
   return (
-        <div className="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
-                <div className="w-full">
-                    <div className="mb-4">
+        <div className="overflow-auto h-screen pb-44 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
+                <div className="w-full space-y-10">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <Alert />                                   
                     </div>        
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert State Info</h1>
                         <AlertInfo />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert State Success</h1>
                         <AlertSuccess />                                   
                     </div> 
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert State Warning</h1>
                         <AlertWarning />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert State Error</h1>
                         <AlertError />                                   
                     </div>    
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert with two Buttons</h1>
                         <AlertTwoButtons />                                   
                     </div>  
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert with Button</h1>
                         <AlertButton />                                   
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert with Text</h1>
                         <AlertText />                                   
                     </div>     
