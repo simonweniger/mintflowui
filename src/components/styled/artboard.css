@@ -1,0 +1,5 @@
+.artboard{
+  &-demo{
+    @apply rounded-box shadow bg-base-100 text-base-content;
+  }
+}

@@ -1,0 +1,127 @@
+.toggle{
+  @apply appearance-none opacity-0 w-0 h-0 absolute;
+  & ~ .toggle-mark{
+    @apply w-12 h-6 rounded-badge border border-base-content border-opacity-20 shadow-inner;
+    &:before{
+      @apply w-5 h-5 m-px rounded-badge bg-base-content bg-opacity-20;
+      animation: togglemark-off var(--animation-input, .4s) ease-in-out;
+    }
+  }
+
+  &:focus-visible {
+    & ~ .toggle-mark{
+      --tw-ring-offset-width: var(--focus-ring-offset, 2px);
+      
+      --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+      --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(var(--focus-ring, 2px) + var(--tw-ring-offset-width)) var(--tw-ring-color);
+      box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);
+      box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
+      @apply ring-offset-base-100 ring-base-300;
+    }
+  }
+  &:checked{
+    &,
+    &:hover{
+      & ~ .toggle-mark{
+        @apply bg-base-100 border-base-content bg-opacity-20;
+        &:before{
+          @apply bg-base-content transform translate-x-6;
+          animation: togglemark-on var(--animation-input, .4s) ease-in-out;
+
+          /* RTL quick fix */
+          [dir=rtl] &{
+            @apply -translate-x-6;
+          }
+
+        }
+      }
+    }
+    &:focus-visible {
+      & ~ .toggle-mark{
+        @apply ring-neutral-focus;
+      }
+    }
+  }
+  &-primary{
+    &:checked{
+      &,
+      &:hover{
+        & ~ .toggle-mark{
+          @apply bg-primary border-primary bg-opacity-20 border-opacity-10;
+          &:before{
+            @apply bg-primary;
+          }
+        }
+      }
+      &:focus-visible {
+        & ~ .toggle-mark{
+          @apply ring-primary;
+        }
+      }
+    }
+  }
+  &-secondary{
+    &:checked{
+      &,
+      &:hover{
+        & ~ .toggle-mark{
+          @apply bg-secondary border-secondary bg-opacity-20 border-opacity-10;
+          &:before{
+            @apply bg-secondary;
+          }
+        }
+      }
+      &:focus-visible {
+        & ~ .toggle-mark{
+          @apply ring-secondary;
+        }
+      }
+    }
+  }
+  &-accent{
+    &:checked{
+      &,
+      &:hover{
+        & ~ .toggle-mark{
+          @apply bg-accent border-accent bg-opacity-20 border-opacity-10;
+          &:before{
+            @apply bg-accent;
+          }
+        }
+      }
+      &:focus-visible {
+        & ~ .toggle-mark{
+          @apply ring-accent;
+        }
+      }
+    }
+  }
+  &:disabled,
+  &:disabled:hover
+  {
+    & ~ .toggle-mark{
+      @apply bg-base-content bg-opacity-20 cursor-not-allowed border-transparent;
+      &:before{
+        @apply border-transparent;
+      }
+    }
+    &:checked{
+      & ~ .toggle-mark{
+        &:before{
+          @apply border-base-100 bg-base-content;
+        }
+      }
+    }
+  }
+}
+
+@keyframes togglemark-off {
+  50% {
+    margin-left: -3px;
+  }
+}
+@keyframes togglemark-on {
+  50% {
+    margin-left: 4px;
+  }
+}
