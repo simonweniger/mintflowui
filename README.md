@@ -6,8 +6,6 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 
 </div>
 
----
-
 ## Features   
 - **Tailwind CSS plugin**  
   mintflowui is a Tailwind CSS plugin. Install it, add it to your `tailwind.config.js` file.
