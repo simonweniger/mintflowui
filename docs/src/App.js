@@ -25,6 +25,10 @@ import ProgressList from "./pages/ProgressList";
 import TabList from "./pages/TabList";
 import InputList from "./pages/InputList";
 import CheckboxList from "./pages/CheckboxList";
+import RadioList from "./pages/RadioList";
+import SelectList from "./pages/SelectList";
+import TextareaList from "./pages/TextareaList";
+import ToggleList from "./pages/ToggleList";
 
 function App() {
   return (
@@ -54,7 +58,11 @@ function App() {
                 <Route path="/progress" component={ProgressList} />
                 <Route path="/tab" component={TabList} />
                 <Route path="/checkbox" component={CheckboxList} />
-                <Route path="/inputs" component={InputList} />
+                <Route path="/input" component={InputList} />
+                <Route path="/radio" component={RadioList} />
+                <Route path="/select" component={SelectList} />
+                <Route path="/textarea" component={TextareaList} />
+                <Route path="/toggle" component={ToggleList} />
               </Switch>
             </div>
           </div>
