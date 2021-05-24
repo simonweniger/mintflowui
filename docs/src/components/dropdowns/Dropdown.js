@@ -2,9 +2,9 @@ import React from "react";
 
 function Dropdown() {
   return (
-    <div class="dropdown">
-      <div tabindex="0" class="m-1 btn">Dropdown</div> 
-      <ul class="shadow menu dropdown-content bg-base-100 rounded-box w-52">
+    <div className="dropdown">
+      <div tabindex="0" className="m-1 btn">Dropdown</div> 
+      <ul className="shadow menu dropdown-content bg-base-100 rounded-box w-52">
         <li>
           <a>Item 1</a>
         </li> 

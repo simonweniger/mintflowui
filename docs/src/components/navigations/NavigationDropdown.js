@@ -2,20 +2,20 @@ import React from "react";
 
 function NavigationDropdown() {
   return (
-    <div class="navbar mb-2 bg-base-300 rounded-box">
-      <div class="flex-1 px-2 lg:flex-none">
-        <a class="text-lg font-bold">
+    <div className="navbar mb-2 bg-base-300 rounded-box">
+      <div className="flex-1 px-2 lg:flex-none">
+        <a className="text-lg font-bold">
         MintFlow
         </a>
       </div> 
-      <div class="flex justify-end flex-1 px-2">
-        <div class="flex items-stretch">
-          <a class="btn btn-ghost rounded-btn">
+      <div className="flex justify-end flex-1 px-2">
+        <div className="flex items-stretch">
+          <a className="btn btn-ghost rounded-btn">
             Button
           </a> 
-          <div class="dropdown dropdown-end">
-            <div tabindex="0" class="btn btn-ghost rounded-btn">Dropdown</div> 
-            <ul class="shadow menu dropdown-content bg-base-100 rounded-box w-52">
+          <div className="dropdown dropdown-end">
+            <div tabindex="0" className="btn btn-ghost rounded-btn">Dropdown</div> 
+            <ul className="shadow menu dropdown-content bg-base-100 rounded-box w-52">
               <li>
                 <a>Item 1</a>
               </li> 

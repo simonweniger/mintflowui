@@ -18,6 +18,7 @@ import CardList from "./pages/CardList";
 import DrawerList from "./pages/DrawerList";
 import NavList from "./pages/NavList";
 import DropdownList from "./pages/DropdownList";
+import HeroList from "./pages/HeroList";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
                 <Route path="/drawer" component={DrawerList} />
                 <Route path="/navigation" component={NavList} />
                 <Route path="/dropdown" component={DropdownList} />
+                <Route path="/hero" component={HeroList} />
               </Switch>
             </div>
           </div>

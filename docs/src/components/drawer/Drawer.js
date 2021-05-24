@@ -2,14 +2,14 @@ import React from "react";
 
 function Drawer() {
   return (
-    <div class="rounded-lg shadow bg-base-200 drawer h-52">
-      <input id="my-drawer" type="checkbox" class="drawer-toggle" /> 
-      <div class="flex flex-col items-center justify-center drawer-content">
-        <label for="my-drawer" class="btn btn-primary drawer-button">open menu</label>
+    <div className="rounded-lg shadow bg-base-200 drawer h-52">
+      <input id="my-drawer" type="checkbox" className="drawer-toggle" /> 
+      <div className="flex flex-col items-center justify-center drawer-content">
+        <label for="my-drawer" className="btn btn-primary drawer-button">open menu</label>
       </div> 
-      <div class="drawer-side">
-        <label for="my-drawer" class="drawer-overlay"></label> 
-        <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+      <div className="drawer-side">
+        <label for="my-drawer" className="drawer-overlay"></label> 
+        <ul className="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
           <li>
             <a>Menu Item</a>
           </li> 
