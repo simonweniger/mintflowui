@@ -21,6 +21,8 @@ import DropdownList from "./pages/DropdownList";
 import HeroList from "./pages/HeroList";
 import MenuList from "./pages/MenuList";
 import ModalList from "./pages/ModalList";
+import ProgressList from "./pages/ProgressList";
+import TabList from "./pages/TabList";
 
 function App() {
   return (
@@ -47,6 +49,8 @@ function App() {
                 <Route path="/hero" component={HeroList} />
                 <Route path="/menu" component={MenuList} />
                 <Route path="/modal" component={ModalList} />
+                <Route path="/progress" component={ProgressList} />
+                <Route path="/tab" component={TabList} />
               </Switch>
             </div>
           </div>
