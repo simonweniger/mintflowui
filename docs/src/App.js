@@ -33,7 +33,7 @@ import ToggleList from "./pages/ToggleList";
 function App() {
   return (
     <Router>
-      <main className="bg-white relative h-screen overflow-hidden">
+      <main data-theme="mintgate" className="bg-white relative h-screen overflow-hidden">
         <div className="flex items-start justify-between">
           <Sidebar />
           <div className="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
