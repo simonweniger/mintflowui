@@ -1,16 +1,16 @@
 <div align="center">
 
+# mintflowui  
+A component library for the crypto creators age. Build beautiful user interfaces arround tokens, nfts and crypto economies.
+  
 **Tailwind CSS Components**  
 Adds component classes like `btn`, `card` and more to Tailwind CSS
 
 </div>
 
-# mintflowui  
-A component library for the crypto creators age. Build beautiful user interfaces arround tokens, nfts and crypto economies.
-
 ---
 
-## 🌼 Features   
+## Features   
 - **Tailwind CSS plugin**  
   mintflowui is a Tailwind CSS plugin. Install it, add it to your `tailwind.config.js` file.
 - **Component classes**  
@@ -25,6 +25,8 @@ A component library for the crypto creators age. Build beautiful user interfaces
   Enable `rtl` config for right to left layouts.
 - **Pure CSS**  
   No script file, no dependencies. 2KB gzip!
+- **Build for Dapps**  
+  Comoponents designed for Web3 Applications (NFTs, Tokens, Wallets etc.)
 
 ---
 
