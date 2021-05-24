@@ -2,8 +2,6 @@
 
 # mintflowui  
 A component library for the crypto creators age. Build beautiful user interfaces arround tokens, nfts and crypto economies.
-  
-**Tailwind CSS Components**  
 Adds component classes like `btn`, `card` and more to Tailwind CSS
 
 </div>
