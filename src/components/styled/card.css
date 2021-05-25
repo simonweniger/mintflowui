@@ -1,5 +1,5 @@
 .card {
-  @apply rounded-box;
+  @apply rounded-box h-full;
   &:focus-visible{
     @apply ring ring-base-content ring-offset-base-100 ring-opacity-20;
   }

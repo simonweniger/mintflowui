@@ -1,0 +1,14 @@
+.gradient{
+  &-one{
+    @apply text-transparent bg-gradient-to-r bg-clip-text from-primary to-secondary;
+  }
+  &-two{
+    @apply text-transparent bg-gradient-to-r bg-clip-text from-secondary to-accent;
+  }
+  &-three{
+    @apply text-transparent bg-gradient-to-r bg-clip-text from-primary to-accent;
+  }
+  &-four{
+    @apply text-transparent bg-gradient-to-r bg-clip-text from-secondary via-primary to-accent;
+  }
+}

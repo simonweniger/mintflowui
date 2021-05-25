@@ -11,7 +11,7 @@
     @apply w-full;
   }
   &-actions {
-    @apply flex items-start flex-wrap -mx-1;
+    @apply flex flex-wrap -mx-1 items-center;
     &>*{
       @apply m-1
     }
