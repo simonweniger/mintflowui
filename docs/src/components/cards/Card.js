@@ -9,7 +9,7 @@ function Card() {
         </figure> 
         <div className="card-body">
           <h2 className="card-title">Top image
-            <div className="badge mx-2 badge-secondary">NEW</div>
+            <div className="badge mx-2 badge-secondary">123 TKN</div>
           </h2> 
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p> 
           <div className="justify-end card-actions">
@@ -22,8 +22,8 @@ function Card() {
           <h2 className="card-title">Image bottom</h2> 
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p> 
           <div className="card-actions">
-            <button className="btn btn-primary">Login</button> 
-            <button className="btn btn-ghost">Register</button>
+            <button className="btn btn-primary">Access</button> 
+            <button className="btn btn-ghost">Learn more</button>
           </div>
         </div> 
         <figure>
@@ -32,10 +32,10 @@ function Card() {
       </div> 
       <div className="card bordered">
         <figure>
-          <img src="https://picsum.photos/id/1005/60/40" className="w-full" />
+          <img src="https://picsum.photos/id/1005/400/250" className="w-full" />
         </figure> 
         <div className="card-body">
-          <h2 className="card-title">Small image file</h2> 
+          <h2 className="card-title">Card with Tags</h2> 
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p> 
           <div className="card-actions">
             <div className="badge badge-ghost">Article</div> 

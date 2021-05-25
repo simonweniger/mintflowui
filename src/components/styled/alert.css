@@ -15,4 +15,7 @@
   &-error {
     @apply bg-opacity-10 bg-error text-error;
   }
+  &-light {
+    @apply bg-base-100;
+  }
 }

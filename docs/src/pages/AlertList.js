@@ -7,6 +7,8 @@ import AlertError from "../components/alerts/AlertError";
 import AlertTwoButtons from "../components/alerts/AlertTwoButtons";
 import AlertButton from "../components/alerts/AlertButton";
 import AlertText from "../components/alerts/AlertText";
+import AlertLight from "../components/alerts/AlertLight";
+import AlertLightShadow from "../components/alerts/AlertLightShadow";
 
 function AlertList() {
   return (
@@ -15,7 +17,15 @@ function AlertList() {
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
                         <Alert />                                   
-                    </div>        
+                    </div>
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
+                        <h1>Alert Light</h1>
+                        <AlertLight />                                   
+                    </div>   
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
+                        <h1>Alert Light Shadow</h1>
+                        <AlertLightShadow />                                   
+                    </div>      
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert State Info</h1>
                         <AlertInfo />                                   

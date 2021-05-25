@@ -1,6 +1,5 @@
 import React from "react";
 import Modal from "../components/modals/Modal";
-import ModalNoURL from "../components/modals/ModalNoURL";
 
 function ModalList() {
   return (
@@ -9,10 +8,6 @@ function ModalList() {
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <Modal />                                   
-                    </div>
-                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <h1>Cards</h1>
-                        <ModalNoURL />                                   
                     </div>
                 </div>
         </div>

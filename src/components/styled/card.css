@@ -4,7 +4,7 @@
     @apply ring ring-base-content ring-offset-base-100 ring-opacity-20;
   }
   &.bordered{
-    @apply border border-base-200;
+    @apply border-2 border-base-200;
   }
   &.compact{
     .card-body {
@@ -14,11 +14,17 @@
       @apply mb-1;
     }
   }
+  &-user {
+    @apply w-full flex justify-between px-4 py-4 text-base font-body;
+  }
   &-body {
-    padding: var(--padding-card, 2rem);
+    padding: var(--padding-card, 1rem);
   }
   &-title {
     @apply mb-3 text-xl font-semibold;
+  }
+  &-text {
+    @apply mb-3 text-base;
   }
   &-actions:first-child {
     @apply mb-2;
