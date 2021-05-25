@@ -9,7 +9,7 @@ function CryptoCards() {
               <div class="rounded-full w-7 h-7">
                 <img src="http://daisyui.com/tailwind-css-component-profile-1@94w.png" />
               </div>
-              <p className="ml-2 font-body text-base-content">@username</p>
+              <p className="ml-2 text-base-content">@username</p>
             </div>
           </div>
         <figure className="px-4">
