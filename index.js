@@ -18,7 +18,7 @@ const utilities_responsiveComponent = require('./dist/responsive/responsiveCompo
 
 
 const mainFunction = ({ addBase, addComponents, addUtilities, config }) => {
-  let diasyuiIncludedItems = []
+  let mintflowuiIncludedItems = []
   let logs = false
   if (config('mintflowui.logs') != false) {
     logs = true
@@ -33,17 +33,17 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config }) => {
   // because rollupjs doesn't supprt dynamic require
   let file = styled
   if (config('mintflowui.styled') == false && config('mintflowui.rtl') == false) {
-    diasyuiIncludedItems.push('unstyled components')
+    mintflowuiIncludedItems.push('unstyled components')
     file = base
   } else if (config('mintflowui.styled') == false && config('mintflowui.rtl') == true) {
-    diasyuiIncludedItems.push('unstyled components')
+    mintflowuiIncludedItems.push('unstyled components')
     console.log('\x1b[36m%s\x1b[0m', ' Direction:', '\x1b[0m', 'RTL');
     file = baseRtl
   } else if (config('mintflowui.styled') != false && config('mintflowui.rtl') != true) {
-    diasyuiIncludedItems.push('components')
+    mintflowuiIncludedItems.push('components')
     file = styled
   } else if (config('mintflowui.styled') !== false && config('mintflowui.rtl') == true) {
-    diasyuiIncludedItems.push('components')
+    mintflowuiIncludedItems.push('components')
     console.log('\x1b[36m%s\x1b[0m', ' Direction:', '\x1b[0m', 'RTL');
     file = styledRtl
   }
@@ -52,7 +52,7 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config }) => {
   // inject @base style 
   if (config('mintflowui.resets') != false) {
     addBase(resets_general)
-    diasyuiIncludedItems.push('resets')
+    mintflowuiIncludedItems.push('resets')
   }
 
   // inject themes
@@ -62,11 +62,11 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config }) => {
       addComponents(require("./dist/themes/"+theme))
       diasyuiIncludedThemes.push(theme)
     });
-    diasyuiIncludedItems.push('selected themes(' + diasyuiIncludedThemes.length + ')')
+    mintflowuiIncludedItems.push('selected themes(' + diasyuiIncludedThemes.length + ')')
   }
   else if (config('mintflowui.themes') != false) {
     addComponents(themes)
-    diasyuiIncludedItems.push('themes')
+    mintflowuiIncludedItems.push('themes')
   }
 
   // inject @utilities style needed by components
@@ -78,10 +78,10 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config }) => {
     addUtilities(utilities_typography, { variants: ['responsive'] })
     addUtilities(utilities_variables, { variants: ['responsive'] })
     addUtilities(utilities_responsiveComponent, { variants: ['responsive'] })
-    diasyuiIncludedItems.push('utilities')
+    mintflowuiIncludedItems.push('utilities')
   }
   if (logs) {
-    console.log('\x1b[32m%s\x1b[0m', '✔︎ Including:', '\x1b[0m', '' + diasyuiIncludedItems.join(', '));
+    console.log('\x1b[32m%s\x1b[0m', '✔︎ Including:', '\x1b[0m', '' + mintflowuiIncludedItems.join(', '));
     if (isTailwindInstalled === false) {
       console.log(`\n\x1b[33;1m! warning\x1b[0m - unable to require \x1b[36mtailwindcss/plugin\x1b[0m
 mintflowui color are now only available for mintflowui components.

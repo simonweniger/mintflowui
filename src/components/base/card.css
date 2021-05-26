@@ -10,14 +10,8 @@
   & figure > * {
     @apply w-full;
   }
-  &-details {
-    @apply flex justify-start mb-3 text-base items-center;
-  }
-  &-image {
-   @apply p-2;
-  } 
   &-actions {
-    @apply flex flex-wrap -mx-1 items-center;
+    @apply flex items-start flex-wrap -mx-1;
     &>*{
       @apply m-1
     }

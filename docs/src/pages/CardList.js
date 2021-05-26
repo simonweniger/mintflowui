@@ -1,12 +1,12 @@
 import React from "react";
 import NFT from "../components/cards/NFT";
 import Card from "../components/cards/Card";
-import Card2 from "../components/cards/Card2";
 import CardGlass from "../components/cards/CardGlass";
 import CardMini from "../components/cards/CardMini";
 import CardNoImage from "../components/cards/CardNoImage";
 import CardNoImageNoButton from "../components/cards/CardNoImageNoButton";
 import CardWide from "../components/cards/CardWide";
+import TokenGatedCard from "../components/cards/TokenGatedCard";
 
 function CardList() {
   return (
@@ -18,11 +18,11 @@ function CardList() {
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1> 
-                        <Card />                                   
+                        <TokenGatedCard />                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
-                        <Card2 />                                   
+                        <Card />                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Card Wide</h1>

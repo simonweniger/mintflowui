@@ -1,0 +1,68 @@
+.hero {
+    @apply text-6xl font-bold;
+}
+.h1 {
+    @apply text-5xl font-bold;
+}
+.h2 {
+    @apply text-4xl font-bold;
+}
+.h3 {
+    @apply text-3xl font-bold;
+}
+.h4 {
+    @apply text-2xl font-bold;
+}
+.h5 {
+    @apply text-xl font-bold;
+}
+.h6 {
+    @apply text-lg font-bold;
+}
+.body-large {
+    @apply text-md font-normal;
+}
+
+.body-large-bold {
+    @apply text-md font-bold;
+}
+
+.body {
+    @apply text-base font-normal;
+}
+
+.body-bold {
+    @apply text-base font-bold;
+}
+
+.caption {
+    @apply text-sm font-normal;
+}
+
+.caption-bold {
+    @apply text-sm font-bold;
+}
+
+.caption-small {
+    @apply text-xs font-normal;
+}
+
+.caption-small-bold {
+    @apply text-xs font-bold;
+}
+
+.hairline-large{
+    @apply text-md font-bold uppercase;
+}
+
+.hairline-small {
+    @apply text-base font-bold uppercase;
+}
+
+.button {
+    @apply text-md font-bold;
+}
+
+.button-small {
+    @apply text-base font-bold;
+}

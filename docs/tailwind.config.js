@@ -4,10 +4,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      'body': ['Karla', 'sans-serif'],
+      'heading': ['Montserrat', 'sans-serif'],
+    },
   },
   variants: {
-    extend: {},
-  },
+    extend: {}
+ },
   plugins: [
     require('mintflowui'),
   ],

@@ -31,6 +31,7 @@ import SelectList from "./pages/SelectList";
 import TextareaList from "./pages/TextareaList";
 import ToggleList from "./pages/ToggleList";
 import DividerList from "./pages/DividerList";
+import Styleguide from "./pages/Styleguide";
 
 function App() {
 
@@ -111,6 +112,7 @@ function App() {
                 <Route path="/select" component={SelectList} />
                 <Route path="/textarea" component={TextareaList} />
                 <Route path="/toggle" component={ToggleList} />
+                <Route path="/styleguide" component={Styleguide} />
               </Switch>
             </div>
           </div>

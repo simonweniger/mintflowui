@@ -1,5 +1,5 @@
 .avatar{
-  @apply relative inline-flex text-sm;
+  @apply relative inline-flex items-center;
   &>div{
     @apply overflow-hidden block;
   }

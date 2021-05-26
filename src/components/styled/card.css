@@ -18,14 +18,14 @@
     @apply w-full flex justify-between px-4 py-4 text-sm;
   }
   &-body {
-    padding: var(--padding-card, 1rem);
+    padding: var(--padding-card, 1.2rem);
   }
   &-body-centerd {
-    padding: var(--padding-card, 1rem);
+    padding: var(--padding-card, 1.2rem);
     jusitfy: center;
   }
   &-title {
-    @apply my-2 text-xl font-semibold;
+    @apply my-2;
   }
   &-text {
     @apply text-base;
