@@ -20,14 +20,12 @@
     --wa: 35 95% 52%;
     --er: 345 100% 53%;
 
-    --rounded-box: 1rem;
-    --rounded-btn: 0.5rem;
+    --rounded-box: 1.5rem;
+    --rounded-btn: 9999px;
     --rounded-badge: 9999px;
     
     --animation-btn: 0.25s;
     --animation-input: .4s;
-    
-    --padding-card: 2rem;
     
     --btn-text-case: uppercase;
     --btn-focus-scale: 0.95;

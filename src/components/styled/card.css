@@ -28,10 +28,10 @@
     @apply my-2 text-xl font-semibold;
   }
   &-text {
-    @apply mb-3 text-base;
+    @apply text-base;
   }
   &-details {
-    @apply flex justify-start mb-3 text-base items-center;
+    @apply flex justify-start text-base items-center;
   }
   &-actions:first-child {
     @apply mb-2;
