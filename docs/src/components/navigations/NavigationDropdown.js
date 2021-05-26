@@ -2,7 +2,7 @@ import React from "react";
 
 function NavigationDropdown() {
   return (
-    <div className="navbar mb-2 bg-base-300 rounded-box">
+    <div className="navbar mb-2 bg-base-100 text-base-content rounded-box">
       <div className="flex-1 px-2 lg:flex-none">
         <a className="text-lg font-bold">
         MintFlow

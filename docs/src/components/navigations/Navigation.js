@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation() {
   return (
-    <div className="rounded-lg shadow bg-base-200 drawer h-52">
+    <div className="rounded-lg shadow bg-base-100 drawer h-52">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
       <div className="flex flex-col drawer-content">
         <div className="w-full navbar bg-base-300">

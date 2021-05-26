@@ -2,7 +2,7 @@ import React from "react";
 
 function NavigationCenter() {
   return (
-    <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+    <div class="navbar mb-2 bg-base-100 text-base-content rounded-box">
       <div class="flex-1 px-2 mx-2 lg:flex-none">
         <span class="text-lg font-bold">
           MintFlow UI

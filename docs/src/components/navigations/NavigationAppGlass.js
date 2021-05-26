@@ -1,8 +1,8 @@
 import React from "react";
 
-function NavigationApp() {
+function NavigationAppGlass() {
   return (
-    <div class="navbar mb-2 bg-base-100 text-base-content rounded-box">
+    <div class="navbar mb-2 text-base-content rounded-box glass">
       <div class="flex-none hidden lg:flex">
         <button class="btn btn-square btn-ghost">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
@@ -45,4 +45,4 @@ function NavigationApp() {
     );
 }
                 
-export default NavigationApp;
+export default NavigationAppGlass;
