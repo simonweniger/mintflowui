@@ -1,5 +1,5 @@
 .card {
-  @apply rounded-box h-full;
+  @apply rounded-box h-full transition duration-500 ease-in-out hover:shadow-lg ;
   &:focus-visible{
     @apply ring ring-base-content ring-offset-base-100 ring-opacity-20;
   }
@@ -41,6 +41,9 @@
   }
   &-image {
    @apply p-2;
+  }
+  &-button-overlay-cb{
+    @apply inline-flex items-center justify-center px-4 absolute bottom-32;
   } 
   &.image-full {
     &:before {

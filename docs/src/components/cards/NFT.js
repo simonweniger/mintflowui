@@ -9,7 +9,7 @@ function NFT() {
               <div className="rounded-full w-7 h-7">
                 <img src="http://daisyui.com/tailwind-css-component-profile-1@94w.png" />
               </div>
-              <p className="ml-2 body text-base-content">@username</p>
+              <p className="ml-2 body-large text-base-content">@username</p>
             </div>
           </div>
         <figure className="px-4">
@@ -30,7 +30,7 @@ function NFT() {
               <div class="rounded-full w-7 h-7">
                 <img src="http://daisyui.com/tailwind-css-component-profile-1@94w.png" />
               </div>
-              <p className="body ml-2 text-base-content">@username</p>
+              <p className="body-large ml-2 text-base-content">@username</p>
             </div>
           </div>
         <figure className="px-4">
@@ -53,7 +53,7 @@ function NFT() {
               <div class="rounded-full w-6 h-6">
                 <img src="http://daisyui.com/tailwind-css-component-profile-1@94w.png" />
               </div>
-              <p className="ml-2 body text-base-content">@username</p>
+              <p className="ml-2 body-large text-base-content">@username</p>
             </div>
           <h2 className="card-title font-heading h6">Title of my NFT</h2> 
           <div className="card-details">
