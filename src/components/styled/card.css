@@ -4,7 +4,7 @@
     @apply ring ring-base-content ring-offset-base-100 ring-opacity-20;
   }
   &.bordered{
-    @apply border border-base-300;
+    @apply border border-base-200;
   }
   &.compact{
     .card-body {
@@ -25,10 +25,10 @@
     jusitfy: center;
   }
   &-title {
-    @apply my-2;
+    @apply my-2 text-base-content;
   }
   &-text {
-    @apply text-base;
+    @apply text-base text-base-content;
   }
   &-details {
     @apply flex justify-start text-base items-center;
@@ -40,7 +40,7 @@
     @apply mt-2;
   }
   &-image {
-   @apply p-2;
+   @apply p-2 rounded-box;
   }
   &-button-overlay-cb{
     @apply inline-flex items-center justify-center px-4 absolute bottom-32;
