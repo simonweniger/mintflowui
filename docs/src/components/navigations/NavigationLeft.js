@@ -7,20 +7,20 @@ function NavigationLeft() {
         <span class="text-lg font-bold">
           MintFlow UI
         </span>
-      </div> 
+      </div>
       <div class="flex-1 px-2 mx-2">
         <div class="items-stretch hidden lg:flex">
           <a class="btn btn-ghost btn-sm rounded-btn">
             Home
           </a> 
           <a class="btn btn-ghost btn-sm rounded-btn">
-            Portfolio
+            Discover
+          </a> 
+          <a class="btn btn-ghost btn-sm rounded-btn">
+            Marketplace
           </a> 
           <a class="btn btn-ghost btn-sm rounded-btn">
             About
-          </a> 
-          <a class="btn btn-ghost btn-sm rounded-btn">
-            Contact
           </a>
         </div>
       </div> 

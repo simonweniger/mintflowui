@@ -14,13 +14,13 @@ function NavigationCenter() {
             Home
           </a> 
           <a class="btn btn-ghost btn-sm rounded-btn">
-            Portfolio
+            Discover
+          </a> 
+          <a class="btn btn-ghost btn-sm rounded-btn">
+            Marketplace
           </a> 
           <a class="btn btn-ghost btn-sm rounded-btn">
             About
-          </a> 
-          <a class="btn btn-ghost btn-sm rounded-btn">
-            Contact
           </a>
         </div>
       </div> 

@@ -2,7 +2,7 @@ import React from "react";
 
 function NFT() {
   return (
-    <div className="flex space-x-12">
+    <div className="flex space-x-4">
       <div className="card bordered max-w-xs">
         <div className="card-user">
             <div className="avatar">
@@ -46,6 +46,24 @@ function NFT() {
       </div>
       <div className="card bordered">
         <figure className="card-image">
+          <img src="https://source.unsplash.com/random/380x400" className="object-cover card-image" />
+        </figure> 
+        <div className="card-body">
+        <div class="avatar">
+              <div class="rounded-full w-6 h-6">
+                <img src="https://source.unsplash.com/random/300x300" />
+              </div>
+              <p className="ml-2 body-large text-base-content">@username</p>
+            </div>
+          <h2 className="card-title font-heading h6">Title of my NFT</h2> 
+          <div className="card-details">
+            <p className="font-body caption-large text-base-300"> Current price</p> 
+            <p className="pl-2 h6 gradient-four">0.80 ETH</p>
+          </div>
+        </div>
+      </div>
+      <div className="card bordered">
+        <figure className="card-image-padding">
           <img src="https://source.unsplash.com/random/380x400" className="object-cover card-image" />
         </figure> 
         <div className="card-body">

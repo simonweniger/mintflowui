@@ -6,6 +6,7 @@ import NavigationCenter from "../components/navigations/NavigationCenter";
 import NavigationDropdown from "../components/navigations/NavigationDropdown";
 import NavigationIconLeft from "../components/navigations/NavigationIconLeft";
 import NavigationIconRight from "../components/navigations/NavigationIconRight";
+import NavigationLeftButtons from "../components/navigations/NavigationLeftButtons";
 import NavigationLeft from "../components/navigations/NavigationLeft";
 import NavigationRight from "../components/navigations/NavigationRight";
 
@@ -40,6 +41,10 @@ function NavList() {
                     <div className="mb-4 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <NavigationLeft />                                   
+                    </div>
+                    <div className="mb-4 p-6 rounded-xl">
+                        <h1>Cards</h1>
+                        <NavigationLeftButtons />                                   
                     </div>
                     <div className="mb-4 p-6 rounded-xl">
                         <h1>Cards</h1>
