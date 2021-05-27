@@ -1,7 +1,6 @@
 .btn {
   border-width: var(--border-btn, 1px);
   animation: button-pop var(--animation-btn, 0.25s) ease-out;
-  text-transform: var(--btn-text-case);
   &:active:hover,
   &:active:focus{
     animation: none;
@@ -160,7 +159,7 @@
 
   /* outline */
   &-outline {
-    @apply bg-transparent text-base-content border-base-200;
+    @apply bg-transparent text-base-content border-2 border-base-200;
     &:hover {
       @apply bg-base-content border-base-content text-base-100;
     }

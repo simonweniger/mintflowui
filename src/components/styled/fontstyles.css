@@ -24,7 +24,7 @@
 }
 
 .body-large-bold {
-    @apply text-md font-bold;
+    @apply text-md font-semibold;
 }
 
 .body {
@@ -32,7 +32,7 @@
 }
 
 .body-bold {
-    @apply text-base font-bold;
+    @apply text-base font-semibold;
 }
 
 .caption {
@@ -40,7 +40,7 @@
 }
 
 .caption-bold {
-    @apply text-sm font-bold;
+    @apply text-sm font-semibold;
 }
 
 .caption-small {
@@ -48,7 +48,7 @@
 }
 
 .caption-small-bold {
-    @apply text-xs font-bold;
+    @apply text-xs font-semibold;
 }
 
 .hairline-large{
@@ -60,9 +60,9 @@
 }
 
 .button {
-    @apply text-md font-bold;
+    @apply text-md font-semibold;
 }
 
 .button-small {
-    @apply text-base font-bold;
+    @apply text-base font-semibold;
 }
