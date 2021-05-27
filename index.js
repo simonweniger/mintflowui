@@ -25,7 +25,7 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config }) => {
   }
   if (logs) {
     console.log()
-    console.log('\x1b[35m%s\x1b[0m', '🌼 mintflowui components ' + mintflowuiInfo.version, '\x1b[0m', mintflowuiInfo.homepage)
+    console.log('\x1b[35m%s\x1b[0m', '🔹 MintFlow UI Components ' + mintflowuiInfo.version, '\x1b[0m', mintflowuiInfo.homepage)
     console.group()
   }
 

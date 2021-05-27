@@ -24,10 +24,10 @@ function Navigation() {
           <div className="flex-none hidden lg:block">
             <ul className="menu horizontal">
               <li>
-                <a className="rounded-btn">Item 1</a>
+                <a className="btn btn-link body-large-bold">Item 1</a>
               </li> 
               <li>
-                <a className="rounded-btn">Item 2</a>
+                <a className="btn btn-link body-large-bold">Item 2</a>
               </li>
             </ul>
           </div>

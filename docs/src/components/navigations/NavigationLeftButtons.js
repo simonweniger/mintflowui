@@ -2,7 +2,7 @@ import React from "react";
 
 function NavigationLeftButtons() {
   return (
-    <div class="navbar mb-2 bg-base-100 text-base-content rounded-box">
+    <nav class="navbar mb-2 bg-base-100 text-base-content rounded-box">
       <div class="flex-none px-2 mx-2">
         <span class="text-lg font-bold">
           MintFlow UI
@@ -11,40 +11,37 @@ function NavigationLeftButtons() {
       <div class="h-8 my-auto divider divider-vertical"></div> 
       <div class="flex-1 px-4">
         <div class="items-stretch hidden lg:flex">
-          <a class="btn btn-ghost btn-sm rounded-btn">
+          <a class="btn btn btn-link body-bold">
             Home
           </a> 
-          <a class="btn btn-ghost btn-sm rounded-btn">
+          <a class="btn btn btn-link body-bold">
             Marketplace
           </a> 
-          <a class="btn btn-ghost btn-sm rounded-btn">
+          <a class="btn btn btn-link body-bold">
             Discover
           </a> 
-          <a class="btn btn-ghost btn-sm rounded-btn">
-            About
-          </a>
         </div>
       </div>
       <div class="flex-none hidden px-2 mx-2 lg:flex">
         <div class="flex items-stretch">
-          <a class="btn btn-ghost btn-sm rounded-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 mr-2 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-            </svg>
-            Likes
-          </a> 
-          <a class="btn btn-ghost btn-sm rounded-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 mr-2 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
-            </svg>
-            Notifications
-          </a> 
+            <a class="btn btn-link body-bold">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokelinecap="round" strokelinejoin="round" strokewidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              </svg>
+              Collection
+            </a>
+            <a class="btn btn-link body-bold">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokelinecap="round" strokelinejoin="round" strokewidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+              Dashboard
+            </a>
         </div>
       </div>
       <div class="flex-none">
       <button class="btn btn-outline">Login</button> 
       </div> 
-    </div>
+    </nav>
     );
 }
                 

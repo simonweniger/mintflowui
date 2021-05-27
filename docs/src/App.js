@@ -68,8 +68,6 @@ function App() {
                           <div className="flex m-5">
                             <select data-choose-theme className="focus:outline-none bg-base-200 h-10 rounded-full px-3 text-neutral
                              border border-base-300">
-                              <option value="mintgatelight">MintGate Light</option>
-                              <option value="mintgatedark">MintGate Dark</option>
                               <option value="light">Light</option>
                               <option value="dark">Dark</option>
                               <option value="black">Black</option>

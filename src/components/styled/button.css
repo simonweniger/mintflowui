@@ -1,8 +1,7 @@
 .btn {
-  @apply font-semibold uppercase;
   border-width: var(--border-btn, 1px);
   animation: button-pop var(--animation-btn, 0.25s) ease-out;
-  text-transform: var(--btn-text-case, uppercase);
+  text-transform: var(--btn-text-case);
   &:active:hover,
   &:active:focus{
     animation: none;
@@ -44,7 +43,7 @@
     @apply border-none bg-gradient-to-r from-secondary via-primary to-accent;
     &:hover,
     &.btn-active {
-      @apply transition duration-500 ease-in-out bg-gradient-to-r from-primary via-accent to-secondary;
+      @apply transition duration-500 ease-in-out bg-gradient-to-r from-primary to-accent;
     }
     &:focus-visible {
       @apply ring-primary;
@@ -146,9 +145,12 @@
     }
   }
   &-link {
-    @apply bg-transparent border-transparent text-primary;
+    @apply bg-transparent border-transparent text-base-content;
     &:hover,
     &.btn-active {
+      @apply text-primary bg-transparent border-transparent;
+    }
+    &.btn-underline {
       @apply underline bg-transparent border-transparent;
     }
     &:focus-visible {
@@ -158,7 +160,7 @@
 
   /* outline */
   &-outline {
-    @apply bg-transparent text-base-content border-current;
+    @apply bg-transparent text-base-content border-base-200;
     &:hover {
       @apply bg-base-content border-base-content text-base-100;
     }
