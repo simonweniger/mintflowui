@@ -163,7 +163,6 @@
     "fs-extra": "^10.0.0",
     "fs-readdir-recursive": "^1.1.0",
     "fs.realpath": "^1.0.0",
-    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "get-caller-file": "^2.0.5",
     "get-intrinsic": "^1.1.1",
