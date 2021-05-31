@@ -20,11 +20,11 @@
     @apply text-lg font-bold;
 }
 .body-large {
-    @apply text-md font-normal;
+    @apply text-md font-normal leading-4;
 }
 
 .body-large-bold {
-    @apply text-md font-semibold;
+    @apply text-md font-semibold leading-4;
 }
 
 .body {
