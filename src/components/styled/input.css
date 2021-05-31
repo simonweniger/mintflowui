@@ -25,7 +25,7 @@
     }
   }
   &-highlited {
-    @apply w-full mt-2 pr-8 h-16 py-2 flex items-center justify-between focus:ring-primary ring-8 shadow-lg ring-primary ring-opacity-20;
+    @apply w-full mt-2 pr-4 h-16 py-2 flex items-center justify-between focus:ring-primary ring-8 shadow-lg ring-primary ring-opacity-20;
   }
   &-success {
     @apply border-success;
