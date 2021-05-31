@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonResponsive() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn btn-xs md:btn-sm lg:btn-md xl:btn-lg">resize your browser</button> 
         <button className="btn btn-square btn-xs md:btn-sm lg:btn-md xl:btn-lg">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-4 h-4 stroke-current md:w-6 md:h-6">

@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonDisabled() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn" disabled="disabled">neutral</button> 
         <button className="btn btn-primary" disabled="disabled">primary</button> 
         <button className="btn btn-ghost" disabled="disabled">ghost</button> 

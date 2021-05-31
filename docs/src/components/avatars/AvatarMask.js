@@ -2,7 +2,7 @@ import React from "react";
 
 function AvatarMasked() {
   return (
-    <div>
+    <div className="space-x-10">
       <div className="avatar">
         <div className="mb-8 w-32 h-32 mask mask-squircle">
           <img src="https://i.pravatar.cc/500?img=32" />

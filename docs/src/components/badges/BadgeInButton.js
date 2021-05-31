@@ -2,7 +2,7 @@ import React from "react";
 
 function BadgeInButton() {
   return (
-    <div>
+    <div className="space-x-10">
       <button className="btn">
       Version 2.7.0
         <div className="badge ml-2">new</div>

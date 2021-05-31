@@ -6,6 +6,7 @@ import ButtonBrand from "../components/buttons/ButtonBrand";
 import ButtonDisabled from "../components/buttons/ButtonDisabled";
 import ButtonDisabledAnnimation from "../components/buttons/ButtonDisabledAnnimation";
 import ButtonGlass from "../components/buttons/ButtonGlass";
+import ButtonGlow from "../components/buttons/ButtonGlow";
 import ButtonHTMLTags from "../components/buttons/ButtonHTMLTags";
 import ButtonIconEnd from "../components/buttons/ButtonIconEnd";
 import ButtonIconStart from "../components/buttons/ButtonIconStart";
@@ -31,12 +32,16 @@ function ButtonList() {
         <div className="overflow-auto h-screen pb-44 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
                 <div className="w-full space-y-10">
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <h1>Alert</h1>
+                        <h1>Brand</h1>
                         <ButtonBrand />                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <h1>Alert</h1>
+                        <h1>Active</h1>
                         <ButtonActive />                                   
+                    </div>
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
+                        <h1>Glow</h1>
+                        <ButtonGlow />                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>

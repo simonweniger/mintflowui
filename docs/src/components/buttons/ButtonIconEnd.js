@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonIconEnd() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn btn-lg">
           Large
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 ml-2 stroke-current">

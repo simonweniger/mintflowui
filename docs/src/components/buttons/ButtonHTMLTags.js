@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonHTMLTags() {
   return (
-      <div>
+      <div className="space-x-10">
         <a href="#" role="button" className="btn">Link</a> 
         <button type="submit" className="btn">Button</button> 
         <input type="button" value="Input" className="btn"/> 

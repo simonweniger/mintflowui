@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonBrand() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn">neutral</button> 
         <button className="btn btn-primary">primary</button> 
         <button className="btn btn-secondary">secondary</button> 

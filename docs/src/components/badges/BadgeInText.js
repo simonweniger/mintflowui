@@ -2,7 +2,7 @@ import React from "react";
 
 function BadgeInText() {
   return (
-    <div>
+    <div className="space-x-10">
         <div>
           <div>
             <h2 className="mb-5 text-2xl">

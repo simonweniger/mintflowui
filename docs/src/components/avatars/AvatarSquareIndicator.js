@@ -2,7 +2,7 @@ import React from "react";
 
 function AvatarSquareIndicator() {
   return (
-    <div>
+    <div className="space-x-10">
       <div className="avatar offline">
         <div className="rounded-btn w-32 h-32">
           <img src="https://i.pravatar.cc/500?img=32"/>

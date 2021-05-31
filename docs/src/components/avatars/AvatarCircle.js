@@ -2,7 +2,7 @@ import React from "react";
 
 function AvatarCircle() {
   return (
-    <div>
+    <div className="space-x-10">
     <div className="avatar">
       <div className="mb-8 rounded-full w-32 h-32">
         <img src="https://i.pravatar.cc/500?img=32"/>

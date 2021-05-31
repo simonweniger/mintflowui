@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonStates() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn btn-info">info</button> 
         <button className="btn btn-success">success</button> 
         <button className="btn btn-warning">warning</button> 

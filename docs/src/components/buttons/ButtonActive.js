@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonActive() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn btn-active" role="button" aria-pressed="true">neutral</button> 
         <button className="btn btn-primary btn-active" role="button" aria-pressed="true">primary</button> 
         <button className="btn btn-secondary btn-active" role="button" aria-pressed="true">secondary</button> 

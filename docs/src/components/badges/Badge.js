@@ -2,7 +2,7 @@ import React from "react";
 
 function Badge() {
   return (
-    <div>
+    <div className="space-x-10">
       <div className="badge">neutral</div> 
       <div className="badge badge-primary">primary</div> 
       <div className="badge badge-secondary">secondary</div> 

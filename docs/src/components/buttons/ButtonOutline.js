@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonOutline() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn btn-outline">neutral</button> 
         <button className="btn btn-outline btn-primary">primary</button> 
         <button className="btn btn-outline btn-secondary">secondary</button> 

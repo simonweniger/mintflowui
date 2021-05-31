@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonSize() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn btn-lg">Large</button> 
         <button className="btn">Normal</button> 
         <button className="btn btn-sm">Small</button> 

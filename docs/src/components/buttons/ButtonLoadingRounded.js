@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonLoadingRounded() {
   return (
-      <div>
+      <div className="space-x-10">
         <button className="btn btn-lg btn-circle loading"></button> 
         <button className="btn btn-circle loading"></button> 
         <button className="btn btn-sm btn-circle loading"></button> 

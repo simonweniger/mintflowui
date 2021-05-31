@@ -5,6 +5,7 @@ import InputButton from "../components/inputs/InputButton";
 import InputDisabled from "../components/inputs/InputDisabled";
 import InputGhost from "../components/inputs/InputGhost";
 import InputHelper from "../components/inputs/InputHelper";
+import InputHighlited from "../components/inputs/InputHighlited";
 import InputNoBorder from "../components/inputs/InputNoBorder";
 import InputSizes from "../components/inputs/InputSizes";
 import InputStates from "../components/inputs/InputStates";
@@ -16,6 +17,10 @@ function InputList() {
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <Input />                                   
+                    </div>
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
+                        <h1>Cards</h1>
+                        <InputHighlited />                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 function AvatarSquare() {
   return (
-    <div>
+    <div className="space-x-10">
       <div className="avatar">
         <div className="mb-8 rounded-btn w-32 h-32">
           <img src="https://i.pravatar.cc/500?img=32"/>
