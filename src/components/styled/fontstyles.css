@@ -1,68 +1,71 @@
-.hero {
-    @apply text-6xl font-bold;
+.d1 {
+    @apply text-8xl font-semibold leading-10;
+}
+.d2 {
+    @apply text-7xl font-semibold leading-10;
 }
 .h1 {
-    @apply text-5xl font-bold;
+    @apply text-6xl font-semibold leading-10;
 }
 .h2 {
-    @apply text-4xl font-bold;
+    @apply text-5xl font-semibold;
 }
 .h3 {
-    @apply text-3xl font-bold;
+    @apply text-4xl font-semibold;
 }
 .h4 {
-    @apply text-2xl font-bold;
+    @apply text-3xl font-semibold;
 }
 .h5 {
-    @apply text-xl font-bold;
+    @apply text-2xl font-medium leading-loose;
 }
 .h6 {
-    @apply text-lg font-bold;
+    @apply text-lg font-medium leading-loose;
 }
-.body-large {
-    @apply text-md font-normal leading-4;
-}
-
-.body-large-bold {
-    @apply text-md font-semibold leading-4;
+.menu {
+    @apply text-base font-semibold leading-tight flex flex-nowrap;
 }
 
-.body {
-    @apply text-base font-normal;
-}
-
-.body-bold {
-    @apply text-base font-semibold;
+.title {
+    @apply text-md font-bold;
 }
 
 .caption {
-    @apply text-sm font-normal;
+    @apply text-sm font-semibold leading-none;
 }
 
 .caption-bold {
-    @apply text-sm font-semibold;
+    @apply text-sm font-bold leading-none;
+}
+
+.bodytext {
+    @apply text-base leading-normal;
+}
+
+.bodytext-small {
+    @apply text-sm leading-normal;
 }
 
 .caption-small {
-    @apply text-xs font-normal;
+    @apply text-sm font-normal;
 }
 
 .caption-small-bold {
-    @apply text-xs font-semibold;
+    @apply text-sm font-semibold;
 }
 
 .hairline-large{
-    @apply text-md font-bold uppercase;
-}
-
-.hairline-small {
     @apply text-base font-bold uppercase;
 }
 
-.button {
-    @apply text-md font-semibold;
+.hairline-small {
+    @apply text-sm font-bold uppercase;
 }
 
-.button-small {
-    @apply text-base font-semibold;
+.buttontext {
+    @apply text-base font-bold leading-tight;
+}
+
+.buttontext-small {
+    @apply text-sm font-bold leading-tight;
 }

@@ -1,0 +1,13 @@
+.sidebar {
+ @apply h-full;
+}
+
+&-logo{
+ @apply mt-4 items-center px-4;
+}
+
+&-nav {
+    @apply flex flex-wrap h-full w-full my-5 px-2 space-y-1;
+}
+
+

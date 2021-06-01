@@ -4,8 +4,11 @@ function Styleguide() {
   return (
         <div className="overflow-auto h-screen pb-44 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
                 <div className="w-full space-y-10">
-                <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <h1 className="font-heading hero">Hero</h1> 
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
+                        <h1 className="font-heading d1">Display One</h1> 
+                    </div>
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
+                        <h1 className="font-heading d2">Display Two</h1> 
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h2 className="font-heading h1">Heading 1</h2>                          
@@ -26,16 +29,10 @@ function Styleguide() {
                         <p className="font-heading h6">Heading 6</p>                                 
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading body-large">Body text large for big paragraphs.</p>                                   
+                        <p className="font-heading menu">Menu Item</p>                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading body-large-bold">Body text large for big paragraphs.</p>                                   
-                    </div>
-                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading body">Body text normal, used for most readble content.</p>                                   
-                    </div>
-                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading body-bold">Body text bold, could be used for links and navigation elements.</p>                                   
+                        <p className="font-heading title">Title</p>                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <p className="font-heading caption">Caption text, used for small paragraphs, info elements and badges.</p>                                   
@@ -44,10 +41,10 @@ function Styleguide() {
                         <p className="font-heading caption-bold">Caption text bold, could be used for secondary links or navigation elements.</p>                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading caption-small">Caption text small, could be used for for very small paragraphs, info elements and badges.</p>                                   
+                        <p className="font-heading bodytext">Body text normal, used for most readble content.</p>                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading caption-small-bold">Caption text small, could be used for for very small paragraphs, info elements and badges.</p>                                   
+                        <p className="font-heading bodytext-small">Body text bold, could be used for links and navigation elements.</p>                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <p className="font-heading hairline-large">Hairline Large</p>                                   
@@ -56,10 +53,10 @@ function Styleguide() {
                         <p className="font-heading hairline-small">Hairline Small</p>                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading button">Button</p>                                   
+                        <p className="font-heading buttontext">Button</p>                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
-                        <p className="font-heading button-small">Button Small</p>                                   
+                        <p className="font-heading buttontext-small">Button Small</p>                                   
                     </div>
                 </div>
         </div>

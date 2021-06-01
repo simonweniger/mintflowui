@@ -1,0 +1,4 @@
+.sidebar {
+ @apply p-4 overflow-y-auto bg-base-100 text-base-content ;
+}
+

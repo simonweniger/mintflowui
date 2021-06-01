@@ -18,8 +18,8 @@ import ButtonGroupList from "./pages/ButtonGroupList";
 import CardList from "./pages/CardList";
 import DrawerList from "./pages/DrawerList";
 import NavList from "./pages/NavList";
+import SidebarList from "./pages/SidebarList";
 import DropdownList from "./pages/DropdownList";
-import HeroList from "./pages/HeroList";
 import MenuList from "./pages/MenuList";
 import ModalList from "./pages/ModalList";
 import ProgressList from "./pages/ProgressList";
@@ -98,8 +98,8 @@ function App() {
                 <Route path="/divider" component={DividerList} />
                 <Route path="/drawer" component={DrawerList} />
                 <Route path="/navigation" component={NavList} />
+                <Route path="/sidebar" component={SidebarList} />
                 <Route path="/dropdown" component={DropdownList} />
-                <Route path="/hero" component={HeroList} />
                 <Route path="/menu" component={MenuList} />
                 <Route path="/modal" component={ModalList} />
                 <Route path="/progress" component={ProgressList} />
