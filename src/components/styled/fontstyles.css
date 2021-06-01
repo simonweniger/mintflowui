@@ -22,7 +22,7 @@
 .h6 {
     @apply text-lg font-medium leading-loose;
 }
-.menu {
+.menuitem {
     @apply text-base font-semibold leading-tight flex flex-nowrap;
 }
 
