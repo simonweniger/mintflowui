@@ -40,10 +40,10 @@
   }
   &-square{
     &.btn-xs {
-      @apply h-6 w-6 p-0;
+      @apply h-8 w-8 p-0;
     }
     &.btn-sm {
-      @apply h-8 w-8 p-0;
+      @apply h-10 w-10 p-0;
     }
     &.btn-md {
       @apply h-12 w-12 p-0;
