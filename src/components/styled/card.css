@@ -19,10 +19,10 @@
   }
   &-body {
     @apply text-base-content;
-    padding: var(--padding-card, 1.2rem);
+    padding: var(--padding-card, 1rem);
   }
   &-body-centerd {
-    padding: var(--padding-card, 1.2rem);
+    padding: var(--padding-card, 1rem);
     jusitfy: center;
   }
   &-title {
@@ -41,13 +41,13 @@
     @apply mt-2;
   }
   &-image-padding {
-   @apply p-2 rounded-box;
+   @apply p-2 pb-0 rounded-box;
   }
   &-image {
     @apply rounded-box;
    }
   &-button-overlay-cb{
-    @apply inline-flex items-center justify-center px-4 absolute bottom-32;
+    @apply inline-flex items-center justify-center px-4 absolute bottom-36;
   } 
   &.image-full {
     &:before {
