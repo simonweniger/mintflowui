@@ -46,9 +46,12 @@
   &-image {
     @apply rounded-box;
    }
-  &-button-overlay-cb{
-    @apply inline-flex items-center justify-center px-4 absolute bottom-36;
+  &-overlay-cb {
+    @apply inline-flex items-center justify-center px-4 absolute bottom-32;
   } 
+  &-overlay-tr{ 
+    @apply flex justify-end absolute top-6 right-4;
+  }
   &.image-full {
     &:before {
       @apply bg-neutral z-10 opacity-75 rounded-box;

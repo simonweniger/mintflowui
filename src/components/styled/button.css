@@ -38,6 +38,16 @@
       @apply ring-primary;
     }
   }
+  &-base {
+    @apply bg-base-200 border-none text-base-content;
+    &:hover,
+    &.btn-active {
+      @apply bg-base-300 border-base-300;
+    }
+    &:focus-visible {
+      @apply ring-base-300;
+    }
+  }
   &-gradient {
     @apply border-none bg-gradient-to-r from-secondary via-primary to-accent;
     &:hover,
@@ -169,6 +179,12 @@
     &:focus-visible {
       @apply ring-current;
     }
+    &.btn-base {
+    @apply bg-transparent text-base-content border-2 border-base-200;
+    &:hover {
+      @apply bg-base-200 border-base-300 text-base-content;
+    }
+  }
     &.btn-primary {
       @apply text-primary;
       &:hover {

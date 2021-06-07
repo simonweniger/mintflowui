@@ -6,10 +6,10 @@ function TokenGatedCard() {
       <div className="card bordered">
         <figure>
           <img class="object-cover h-full card-image" src="https://source.unsplash.com/random/300x360"/>
-            <div class="justify-right absolute left-52 top-4">
+            <div class="card-overlay-tr">
               <p class="badge badge-ghost font-bold">🔒 45 TKN</p>
             </div>
-            <div class="inline-flex items-center justify-center px-4 absolute bottom-36">
+            <div class="card-overlay-cb">
               <p class="btn btn-gradient w-1/3 text-primary-content buttontext-small">Access</p>
             </div>
         </figure>
@@ -26,10 +26,10 @@ function TokenGatedCard() {
       <div className="card bordered">
         <figure>
           <img class="object-cover h-full card-image-padding" src="https://source.unsplash.com/random/300x360"/>
-            <div class="justify-right absolute left-52 top-6">
+            <div class="card-overlay-tr">
               <p class="badge badge-ghost font-bold">🔒 45 TKN</p>
             </div>
-            <div class="card-button-overlay-cb">
+            <div class="card-overlay-cb">
               <p class="btn btn-gradient w-1/3 text-primary-content buttontext-small">Access</p>
             </div>
         </figure>
