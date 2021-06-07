@@ -180,7 +180,7 @@
       @apply ring-current;
     }
     &.btn-base {
-    @apply bg-transparent text-base-content border-2 border-base-200;
+    @apply bg-transparent text-base-content;
     &:hover {
       @apply bg-base-200 border-base-300 text-base-content;
     }

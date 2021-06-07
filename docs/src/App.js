@@ -32,6 +32,8 @@ import TextareaList from "./pages/TextareaList";
 import ToggleList from "./pages/ToggleList";
 import DividerList from "./pages/DividerList";
 import Styleguide from "./pages/Styleguide";
+import StatList from "./pages/StatsList";
+import TableList from "./pages/TableList";
 
 function App() {
 
@@ -103,7 +105,9 @@ function App() {
                 <Route path="/menu" component={MenuList} />
                 <Route path="/modal" component={ModalList} />
                 <Route path="/progress" component={ProgressList} />
+                <Route path="/stat" component={StatList} />
                 <Route path="/tab" component={TabList} />
+                <Route path="/table" component={TableList} />
                 <Route path="/checkbox" component={CheckboxList} />
                 <Route path="/input" component={InputList} />
                 <Route path="/radio" component={RadioList} />

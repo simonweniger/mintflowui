@@ -73,6 +73,11 @@ function Sidebar() {
                                     </Link>
                                     </li>
                                     <li>
+                                    <Link to="/stat" className="rounded-lg">
+                                            Stat
+                                    </Link>
+                                    </li>
+                                    <li>
                                     <Link to="/dropdown" className="rounded-lg">
                                             Dropdown
                                     </Link>
@@ -100,6 +105,11 @@ function Sidebar() {
                                     <li>
                                     <Link to="/tab" className="rounded-lg">
                                             Tab
+                                    </Link>
+                                    </li>
+                                    <li>
+                                    <Link to="/table" className="rounded-lg">
+                                            Table
                                     </Link>
                                     </li>
                                     <li>
