@@ -58,6 +58,16 @@
       @apply ring-primary;
     }
   }
+  &-gradient-two {
+    @apply border-none bg-gradient-to-r from-primary to-accent;
+    &:hover,
+    &.btn-active {
+      @apply transition duration-500 ease-in-out bg-gradient-to-r from-accent to-primary;
+    }
+    &:focus-visible {
+      @apply ring-primary;
+    }
+  }
   &-secondary {
     @apply bg-secondary border-secondary text-secondary-content;
     &:hover,
