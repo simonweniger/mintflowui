@@ -1,0 +1,31 @@
+import React from "react";
+
+function CarouselVertical() {
+  return (
+    <div class="w-64 h-36 carousel rounded-box carousel-vertical">
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/500/256/144" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/501/256/144" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/502/256/144" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/503/256/144" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/504/256/144" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/505/256/144" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/506/256/144" />
+      </div>
+    </div>
+    );
+}
+                
+export default CarouselVertical;

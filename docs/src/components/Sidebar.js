@@ -53,6 +53,11 @@ function Sidebar() {
                                     </Link>
                                 </li>
                                 <li>
+                                    <Link to="/carousel" className="rounded-lg">
+                                            Carousel
+                                    </Link>
+                                </li>
+                                <li>
                                     <Link to="/divider" className="rounded-lg">
                                             Divider
                                     </Link>

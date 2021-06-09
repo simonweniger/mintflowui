@@ -34,6 +34,7 @@ import DividerList from "./pages/DividerList";
 import Styleguide from "./pages/Styleguide";
 import StatList from "./pages/StatsList";
 import TableList from "./pages/TableList";
+import CarouselList from "./pages/CarouselList";
 
 function App() {
 
@@ -97,6 +98,7 @@ function App() {
                 <Route path="/button" component={ButtonList} />
                 <Route path="/button-group" component={ButtonGroupList} />
                 <Route path="/card" component={CardList} />
+                <Route path="/carousel" component={CarouselList} />
                 <Route path="/divider" component={DividerList} />
                 <Route path="/drawer" component={DrawerList} />
                 <Route path="/navigation" component={NavList} />
