@@ -12,6 +12,7 @@
     @apply rounded-btn;
   }
   li{
+    @apply text-base-content opacity-80;
     >a, >span{
       @apply text-current px-5 py-3;
     }

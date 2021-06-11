@@ -1,23 +1,24 @@
 .accordion {
   & > * + *{
     .accordion-title{
+      @apply text-base-content;
       &:before{
         content: '';
         top: -1rem;
-        @apply block h-px bg-base-200 relative text-base-content;
+        @apply block h-px bg-base-200 relative;
       }
     }
   }
   &-item{
-    @apply -mb-px rounded-box;
+    @apply -mb-px rounded-box text-base-content;
     .accordion-title{
-      @apply rounded-box;
+      @apply rounded-box text-base-content;
       &:hover{
         @apply bg-base-200;
       }
     }
     .accordion-body {
-      @apply rounded-box;
+      @apply pt-2 rounded-box text-base-content opacity-50;
     }
     input {
       &:focus-visible{

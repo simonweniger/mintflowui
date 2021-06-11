@@ -1,5 +1,5 @@
 .breadcrumbs{
-  @apply py-2;
+  @apply py-2 text-base-content;
   & > ul{
     & > li{
       & > a{
