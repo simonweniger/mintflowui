@@ -29,13 +29,13 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 ## 👩‍💻 Install now!  
 
 ```bash
-npm i mintflowui --save
+npm i @mintgate/mintflowui --save
 ```
 
 or 
 
 ```bash
-yarn add mintflowui
+yarn add @mintgate/mintflowui
 ```
 
 Then add mintflowui to your `tailwind.config.js`  
@@ -43,7 +43,7 @@ Then add mintflowui to your `tailwind.config.js`
 module.exports = {
 
   plugins: [
-    require('mintflowui'),
+    require('@mintgate/mintflowui'),
   ],
 
 }
