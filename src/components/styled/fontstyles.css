@@ -23,7 +23,7 @@
     @apply text-xl font-semibold leading-loose;
 }
 .menuitem {
-    @apply text-md font-semibold leading-tight flex flex-nowrap;
+    @apply text-base font-semibold leading-tight flex flex-nowrap;
 }
 
 .title {
@@ -39,7 +39,7 @@
 }
 
 .bodytext {
-    @apply text-md leading-normal;
+    @apply text-base leading-normal;
 }
 
 .bodytext-small {
@@ -63,7 +63,7 @@
 }
 
 .buttontext {
-    @apply text-md font-semibold;
+    @apply text-base font-semibold;
 }
 
 .buttontext-small {

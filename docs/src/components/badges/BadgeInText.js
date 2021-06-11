@@ -26,7 +26,7 @@ function BadgeInText() {
             </h2>
           </div> 
           <div>
-            <h2 className="mb-5 text-md">
+            <h2 className="mb-5 text-base">
                   Heading
                   
               <div className="badge badge-outline">New</div>
