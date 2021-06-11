@@ -13,6 +13,6 @@ module.exports = {
     extend: {}
  },
   plugins: [
-    require('mintflowui'),
+    require('@mintgate/mintflowui'),
   ],
 }

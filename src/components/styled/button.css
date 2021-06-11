@@ -235,7 +235,7 @@
     }
     &.btn-sm:before,
     &.btn-xs:before {
-      @apply h-3 w-3;
+      @apply h-3 w-3 ;
     }
   }
 }
@@ -245,7 +245,7 @@
   & > .btn-active {
     @apply bg-primary border-primary text-primary-content;
     &:focus-visible {
-      @apply ring-primary;
+      box-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--p));
     }
   }
   & > .btn:not(:first-child) {
