@@ -47,7 +47,7 @@
 }
 
 .caption-small {
-    @apply text-sm font-normal;
+    @apply text-sm;
 }
 
 .caption-small-bold {
