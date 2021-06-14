@@ -61,7 +61,7 @@ function ButtonList() {
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>
-                        <ButtonGlass />                                   
+                        <ButtonGlass opacity-50 />                                   
                     </div>
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Alert</h1>

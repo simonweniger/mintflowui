@@ -2,7 +2,7 @@ import React from "react";
 
 function NavigationAppGlass() {
   return (
-    <div class="navbar mb-2 text-base-content rounded-box glass">
+    <div class="navbar mb-2 text-base-content rounded-box glass bg-base-100 opacity-40">
       <div class="flex-none hidden lg:flex">
         <button class="btn btn-square btn-ghost">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">

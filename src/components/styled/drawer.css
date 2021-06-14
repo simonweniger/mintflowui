@@ -7,7 +7,7 @@
       @apply cursor-pointer transition-all ease-in-out duration-300 bg-neutral-focus;
     }
     &>.drawer-overlay{
-      @apply cursor-pointer transition-all ease-in-out duration-300 glass;
+      @apply cursor-pointer transition-all ease-in-out duration-300 glass bg-base-100 opacity-40;
     }
     &>.drawer-overlay-gray + *{
       @apply transition-all ease-in-out duration-300;

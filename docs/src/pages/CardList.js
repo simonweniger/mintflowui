@@ -37,7 +37,7 @@ function CardList() {
                         <CardNoImageNoButton />                                   
                     </div>
                     <div className="mb-4 p-6 rounded-xl">
-                        <h1>Card Glassmorphism</h1>
+                        <h1>Card glass bg-base-100 opacity-40morphism</h1>
                         <CardGlass />                                   
                     </div>
                     <div className="mb-4 p-6 rounded-xl">
