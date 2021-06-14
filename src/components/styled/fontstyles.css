@@ -63,9 +63,9 @@
 }
 
 .buttontext {
-    @apply text-base font-semibold;
+    @apply text-sm font-semibold;
 }
 
 .buttontext-small {
-    @apply text-base font-semibold leading-tight;
+    @apply text-xs font-semibold leading-tight;
 }
