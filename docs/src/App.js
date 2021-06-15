@@ -88,7 +88,7 @@ function App() {
                       </div>
                   </div>
               </header>
-            <div className="mx-4 md:mx-0 bg-base-200 shadow-inner dark:bg-gray-800 rounded-2xl p-10">
+            <div className="mx-4 md:mx-0 bg-base-200 shadow-inner rounded-2xl p-10">
               <Switch>
                 <Route path="/accordion" component={AccordionList} />
                 <Route path="/alert" component={AlertList} />
