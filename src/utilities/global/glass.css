@@ -2,7 +2,7 @@
   &,
   &:hover,
   &.btn-active {
-    backdrop-filter: blur(45px);
-    -webkit-backdrop-filter: blur(45px);
+    backdrop-filter: blur( 16.0px );
+    -webkit-backdrop-filter: blur( 16.0px );
   }
 }
