@@ -26,6 +26,11 @@
       @apply text-accent;
     }
   }
+  &-glass {
+    @apply bg-base-100 opacity-40;
+    backdrop-filter: blur( 16.0px );
+    -webkit-backdrop-filter: blur( 16.0px );
+  }
 
 
   &-info {

@@ -139,8 +139,9 @@
   &.glass{
     &:hover,
     &.btn-active {
-      --glass-opacity: 25%;
-      --glass-border-opacity: 15%;
+      @apply bg-base-100 opacity-40;
+      backdrop-filter: blur( 16.0px );
+      -webkit-backdrop-filter: blur( 16.0px );
     }
     &:focus-visible {
       --tw-ring-color: hsl(0deg 0% 100% / 0%);
