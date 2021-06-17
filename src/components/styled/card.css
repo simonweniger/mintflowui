@@ -54,7 +54,7 @@
   }
   &.image-full {
     &:before {
-      @apply bg-neutral z-10 opacity-75 rounded-box;
+      @apply bg-gradient-to-b from-neutral to-transparent z-10 opacity-30 rounded-box;
     }
   }
   &.image-full > &-body {
