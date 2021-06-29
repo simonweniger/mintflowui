@@ -83,6 +83,11 @@ function Sidebar() {
                                     </Link>
                                     </li>
                                     <li>
+                                    <Link to="/steps" className="rounded-lg">
+                                            Steps
+                                    </Link>
+                                    </li>
+                                    <li>
                                     <Link to="/dropdown" className="rounded-lg">
                                             Dropdown
                                     </Link>

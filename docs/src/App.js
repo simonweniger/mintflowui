@@ -35,6 +35,7 @@ import Styleguide from "./pages/Styleguide";
 import StatList from "./pages/StatsList";
 import TableList from "./pages/TableList";
 import CarouselList from "./pages/CarouselList";
+import StepsList from "./pages/StepsList";
 
 function App() {
 
@@ -108,6 +109,7 @@ function App() {
                 <Route path="/modal" component={ModalList} />
                 <Route path="/progress" component={ProgressList} />
                 <Route path="/stat" component={StatList} />
+                <Route path="/steps" component={StepsList} />
                 <Route path="/tab" component={TabList} />
                 <Route path="/table" component={TableList} />
                 <Route path="/checkbox" component={CheckboxList} />
