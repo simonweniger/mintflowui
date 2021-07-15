@@ -32,7 +32,7 @@
     @apply text-base text-base-content opacity-50;
   }
   &-details {
-    @apply flex justify-start text-base-content opacity-50 items-center;
+    @apply flex justify-start text-base-content items-center;
   }
   &-actions:first-child {
     @apply mb-2;
