@@ -1,127 +1,54 @@
 .toggle{
-  @apply appearance-none opacity-0 w-0 h-0 absolute;
-  & ~ .toggle-mark{
-    @apply w-12 h-6 rounded-badge border border-base-content border-opacity-20 shadow-inner;
-    &:before{
-      @apply w-5 h-5 m-px rounded-badge bg-base-content bg-opacity-20;
-      animation: togglemark-off var(--animation-input, .4s) ease-in-out;
-    }
-  }
-
+  --chkbg: hsla(var(--bc)/.2);
+  --focus-shadow: 0 0 0;
+  --handleoffset: 1.5rem;
+  @apply appearance-none w-12 h-6 rounded-badge border border-base-content border-opacity-20 cursor-pointer ease-in-out duration-300 bg-base-content bg-opacity-20;
+  transition: background,box-shadow var(--animation-input, .2s) ease-in-out;
+  box-shadow: calc( -1 * var(--handleoffset) ) 0 0 2px hsl(var(--b1)) inset, 0 0 0 2px hsl(var(--b1)) inset, var(--focus-shadow);
   &:focus-visible {
-    & ~ .toggle-mark{
-      --tw-ring-offset-width: var(--focus-ring-offset, 2px);
-      
-      --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-      --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(var(--focus-ring, 2px) + var(--tw-ring-offset-width)) var(--tw-ring-color);
-      box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);
-      box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
-      @apply ring-offset-base-100 ring-base-300;
-    }
+    --focus-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--bc));
   }
   &:checked{
-    &,
-    &:hover{
-      & ~ .toggle-mark{
-        @apply bg-base-100 border-base-content bg-opacity-20;
-        &:before{
-          @apply bg-base-content transform translate-x-6;
-          animation: togglemark-on var(--animation-input, .4s) ease-in-out;
-
-          /* RTL quick fix */
-          [dir=rtl] &{
-            @apply -translate-x-6;
-          }
-
-        }
-      }
-    }
-    &:focus-visible {
-      & ~ .toggle-mark{
-        @apply ring-neutral-focus;
-      }
-    }
+    --chkbg: hsl(var(--bc));
+    @apply border-opacity-100 bg-opacity-100;
+    box-shadow: var(--handleoffset) 0 0 2px hsl(var(--b1)) inset, 0 0 0 2px hsl(var(--b1)) inset, var(--focus-shadow);
   }
   &-primary{
+    &:focus-visible {
+      --focus-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--p));
+    }
     &:checked{
-      &,
-      &:hover{
-        & ~ .toggle-mark{
-          @apply bg-primary border-primary bg-opacity-20 border-opacity-10;
-          &:before{
-            @apply bg-primary;
-          }
-        }
-      }
-      &:focus-visible {
-        & ~ .toggle-mark{
-          @apply ring-primary;
-        }
-      }
+      --chkbg: hsl(var(--p));
+      @apply border-primary;
+      @apply bg-primary border-opacity-10 border-primary text-primary-content;
     }
   }
   &-secondary{
+    &:focus-visible {
+      --focus-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--s));
+    }
     &:checked{
-      &,
-      &:hover{
-        & ~ .toggle-mark{
-          @apply bg-secondary border-secondary bg-opacity-20 border-opacity-10;
-          &:before{
-            @apply bg-secondary;
-          }
-        }
-      }
-      &:focus-visible {
-        & ~ .toggle-mark{
-          @apply ring-secondary;
-        }
-      }
+      --chkbg: hsl(var(--s));
+      @apply border-secondary;
+      @apply bg-secondary border-opacity-10 border-secondary text-secondary-content;
     }
   }
   &-accent{
+    &:focus-visible {
+      --focus-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--a));
+    }
     &:checked{
-      &,
-      &:hover{
-        & ~ .toggle-mark{
-          @apply bg-accent border-accent bg-opacity-20 border-opacity-10;
-          &:before{
-            @apply bg-accent;
-          }
-        }
-      }
-      &:focus-visible {
-        & ~ .toggle-mark{
-          @apply ring-accent;
-        }
-      }
+      --chkbg: hsl(var(--a));
+      @apply border-accent;
+      @apply bg-accent border-opacity-10 border-accent text-accent-content;
     }
   }
-  &:disabled,
-  &:disabled:hover
-  {
-    & ~ .toggle-mark{
-      @apply bg-base-content bg-opacity-20 cursor-not-allowed border-transparent;
-      &:before{
-        @apply border-transparent;
-      }
-    }
-    &:checked{
-      & ~ .toggle-mark{
-        &:before{
-          @apply border-base-100 bg-base-content;
-        }
-      }
-    }
+  &:disabled{
+    @apply bg-base-content bg-opacity-20 cursor-not-allowed border-transparent;
   }
 }
 
-@keyframes togglemark-off {
-  50% {
-    margin-left: -3px;
-  }
-}
-@keyframes togglemark-on {
-  50% {
-    margin-left: 4px;
-  }
+/* backward comptability */
+.toggle-mark{
+  @apply hidden;
 }
