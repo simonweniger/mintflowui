@@ -1,12 +1,12 @@
 .input {
   @apply bg-base-100 rounded-btn text-base-content;
   &-bordered {
-    @apply border-2 border-base-200;
+    @apply border-1 border-base-200;
   }
   &:focus {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
-    @apply border-2 border-primary outline-none;
+    @apply border-1 border-primary outline-none;
   }
   &-ghost {
     @apply bg-opacity-5;

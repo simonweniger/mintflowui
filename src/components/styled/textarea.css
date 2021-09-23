@@ -1,7 +1,7 @@
 .textarea {
   @apply bg-base-100 rounded-btn text-base-content;
   &-bordered {
-    @apply border-2 border-base-200 ;
+    @apply border-1 border-base-200;
   }
   &:focus {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);
@@ -12,6 +12,24 @@
     @apply bg-opacity-5;
     &:focus {
       @apply bg-opacity-100 shadow-none ring-0 ring-offset-0 text-base-content;
+    }
+  }
+  &-primary {
+    @apply border-primary;
+    &:focus {
+      @apply ring-primary;
+    }
+  }
+  &-secondary {
+    @apply border-secondary;
+    &:focus {
+      @apply ring-secondary;
+    }
+  }
+  &-accent {
+    @apply border-accent;
+    &:focus {
+      @apply ring-accent;
     }
   }
   &-disabled,
