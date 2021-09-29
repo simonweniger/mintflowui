@@ -4,17 +4,14 @@
   &:focus {
     @apply outline-none;
   }
-  &.btn-xl{
-    @apply px-10 py-4;
-  }
   &.btn-lg{
     @apply px-5 py-3;
   },
   &.btn-sm{
-    @apply px-3 py-1;
+    @apply px-3 py-2;
   },
   &.btn-xs{
-    @apply px-1;
+    @apply px-1 py-1;
   },
 
   

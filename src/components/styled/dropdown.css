@@ -1,5 +1,5 @@
 .dropdown .dropdown-content{
-  @apply transition duration-200 ease-in-out transform scale-95 origin-top;
+  @apply transition duration-200 ease-in-out transform scale-95 origin-top shadow-lg;
 }
 .dropdown-top .dropdown-content{
   @apply origin-bottom;

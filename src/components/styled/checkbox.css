@@ -1,9 +1,12 @@
 .checkbox{
   --chkbg: var(--bc);
   --chkfg: var(--b1);
-  @apply appearance-none w-6 h-6 rounded-btn border border-base-content border-opacity-20 cursor-pointer;
+  @apply appearance-none w-6 h-6 rounded-btn border border-base-content border-opacity-20 cursor-pointer shadow;
   &:focus-visible {
     box-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--bc));
+  }
+  &:hover {
+    @apply shadow-sm;
   }
   &:checked{
     @apply bg-base-content bg-no-repeat;

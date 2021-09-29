@@ -1,5 +1,5 @@
 .badge {
-  @apply bg-neutral border border-neutral text-neutral-content rounded-badge bg-opacity-50;
+  @apply bg-neutral border border-neutral text-neutral-content rounded-badge bg-opacity-50 shadow-sm;
   &-primary {
     @apply bg-primary border-primary text-primary-content bg-opacity-50;
   }

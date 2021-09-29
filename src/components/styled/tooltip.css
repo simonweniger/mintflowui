@@ -1,5 +1,5 @@
 .tooltip{
-  @apply inline-block relative text-center;
+  @apply inline-block relative text-center shadow-lg;
   --tooltip-tail: 3px;
   --tooltip-color: hsl(var(--n));
   --tooltip-text-color: hsl(var(--nc));

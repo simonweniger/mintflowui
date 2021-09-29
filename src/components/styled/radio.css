@@ -1,10 +1,13 @@
 .radio{
   --chkbg: var(--bc);
   --focus-shadow: 0 0 0;
-  @apply appearance-none w-6 h-6 rounded-full border border-base-content border-opacity-20 cursor-pointer;
+  @apply appearance-none w-6 h-6 rounded-full shadow border border-base-content border-opacity-20 cursor-pointer;
   transition: background,box-shadow var(--animation-input, .2s) ease-in-out;
   &:focus-visible {
     --focus-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--bc));
+  }
+  &:hover {
+    @apply shadow-sm;
   }
   &:checked{
     @apply bg-base-content;

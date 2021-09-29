@@ -1,7 +1,10 @@
 .progress{
-  @apply rounded-box h-2;
+  @apply rounded-box h-2 shadow;
   &::-moz-progress-bar{
     @apply bg-neutral;
+  }
+  &:hover {
+    @apply shadow-sm;
   }
   &-primary::-moz-progress-bar{
     @apply bg-primary;

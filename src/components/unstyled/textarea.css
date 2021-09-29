@@ -2,7 +2,7 @@
 .textarea{
   @apply transition duration-200 ease-in-out flex-shrink cursor-pointer;
   &{
-    @apply px-4 py-2 h-10 text-sm leading-loose min-h-10;
+    @apply px-4 py-2 h-10 text-sm leading-loose;
   }
   &:focus {
     @apply outline-none;

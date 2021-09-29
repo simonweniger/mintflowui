@@ -1,7 +1,10 @@
 .select {
-  @apply border transition duration-200 ease-in-out rounded-btn font-semibold bg-base-100 border-base-content border-opacity-0 pr-10;
+  @apply border transition duration-200 ease-in-out shadow rounded-btn font-semibold bg-base-100  border-opacity-0 pr-10;
   &-bordered {
-    @apply border-opacity-20;
+    @apply border-opacity-20 border-base-300;
+  }
+  &:hover {
+    @apply shadow-sm;
   }
   background-image:
     linear-gradient(45deg, transparent 50%, currentColor 50%),
@@ -14,13 +17,9 @@
     4px 4px;
   background-repeat: no-repeat;
   &:focus {
-    --tw-ring-offset-width: var(--focus-ring-offset, 2px);
-    
-    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(var(--focus-ring, 2px) + var(--tw-ring-offset-width)) var(--tw-ring-color);
-    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);
-    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
-    @apply ring-base-content ring-offset-base-100 ring-opacity-20;
+    box-shadow: var(--tw-ringoffset-shadow), var(--tw-ringshadow), 0 0 rgba(0,0,0,0);
+    box-shadow: var(--tw-ringoffset-shadow), var(--tw-ringshadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
+    @apply border border-neutral shadow-md ring-2 ring-opacity-20 ring-neutral outline-none;
   }
   &-ghost {
     @apply bg-opacity-5;
@@ -29,45 +28,48 @@
     }
   }
   &-info {
-    @apply border-info;
+    @apply border border-info;
     &:focus {
-      @apply ring-info;
+      @apply border-info ring-2 ring-opacity-20 ring-info outline-none;
     }
   }
+  &-highlited {
+    @apply w-full mt-2 pr-4 h-16 py-2 flex items-center justify-between focus:ring-primary ring-8 shadow-lg ring-primary ring-opacity-20;
+  }
   &-success {
-    @apply border-success;
+    @apply border border-success;
     &:focus {
-      @apply ring-success;
+      @apply border-success ring-2 ring-opacity-20 ring-success outline-none;
     }
   }
   &-warning {
-    @apply border-warning;
+    @apply border border-warning;
     &:focus {
-      @apply ring-warning;
+      @apply border-warning ring-2 ring-opacity-20 ring-warning outline-none;
     }
   }
   &-error {
-    @apply border-error;
+    @apply border border-error;
     &:focus {
-      @apply ring-error;
+      @apply border-warning ring-2 ring-opacity-20 ring-error outline-none;
     }
   }
   &-primary {
-    @apply border-primary;
+    @apply border border-base-200;
     &:focus {
-      @apply ring-primary;
+      @apply border-primary ring-2 ring-opacity-20 ring-primary outline-none;
     }
   }
   &-secondary {
-    @apply border-secondary;
+    @apply border border-base-200;
     &:focus {
-      @apply ring-secondary;
+      @apply border-secondary ring-2 ring-opacity-20 ring-secondary outline-none;
     }
   }
   &-accent {
-    @apply border-accent;
+    @apply border border-base-200;
     &:focus {
-      @apply ring-accent;
+      @apply border-accent ring-2 ring-opacity-20 ring-accent outline-none;
     }
   }
   &-disabled,
