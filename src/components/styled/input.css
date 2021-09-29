@@ -1,62 +1,62 @@
 .input {
-  @apply bg-base-100 rounded-btn text-base-content;
+  @apply bg-base-200 rounded-box text-base-content text-sm shadow-sm hover:shadow cursor-pointer transition duration-400 ease-in;
   &-bordered {
-    @apply border-1 border-base-200;
+    @apply border border-base-200 bg-base-200;
   }
   &:focus {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
-    @apply border-1 border-primary outline-none;
+    @apply border border-neutral ring ring-opacity-20 ring-neutral outline-none;
   }
   &-ghost {
     @apply bg-opacity-5;
     &:focus {
-      @apply bg-opacity-100 shadow-none ring-0 ring-offset-0 text-base-content;
+      @apply bg-opacity-200 shadow-none ring-0 ring-offset-0 text-base-content;
     }
   }
   &-info {
-    @apply border-info;
+    @apply border border-info;
     &:focus {
-      @apply ring-info;
+      @apply ring ring-opacity-20 ring-info outline-none;
     }
   }
   &-highlited {
     @apply w-full mt-2 pr-4 h-16 py-2 flex items-center justify-between focus:ring-primary ring-8 shadow-lg ring-primary ring-opacity-20;
   }
   &-success {
-    @apply border-success;
+    @apply border border-success;
     &:focus {
-      @apply ring-success;
+      @apply ring ring-opacity-20 ring-success outline-none;
     }
   }
   &-warning {
-    @apply border-warning;
+    @apply border border-warning;
     &:focus {
-      @apply ring-warning;
+      @apply ring ring-opacity-20 ring-warning outline-none;
     }
   }
   &-error {
-    @apply border-error;
+    @apply border border-error;
     &:focus {
-      @apply ring-error;
+      @apply ring ring-opacity-20 ring-error outline-none;
     }
   }
   &-primary {
-    @apply border-primary;
+    @apply border border-base-200;
     &:focus {
-      @apply ring-primary;
+      @apply ring ring-opacity-20 ring-primary outline-none;
     }
   }
   &-secondary {
-    @apply border-secondary;
+    @apply border border-base-200;
     &:focus {
-      @apply ring-secondary;
+      @apply ring ring-opacity-20 ring-secondary outline-none;
     }
   }
   &-accent {
-    @apply border-accent;
+    @apply border border-base-200;
     &:focus {
-      @apply ring-accent;
+      @apply ring ring-opacity-20 ring-accent outline-none;
     }
   }
   &-disabled,
