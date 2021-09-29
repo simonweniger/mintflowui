@@ -1,17 +1,17 @@
 .badge {
-  @apply bg-neutral border border-neutral text-neutral-content rounded-badge;
+  @apply bg-neutral border border-neutral text-neutral-content rounded-badge bg-opacity-50;
   &-primary {
-    @apply bg-primary border-primary text-primary-content;
+    @apply bg-primary border-primary text-primary-content bg-opacity-50;
   }
   &-secondary {
-    @apply bg-secondary border-secondary text-secondary-content;
+    @apply bg-secondary border-secondary text-secondary-content bg-opacity-50;
   }
   &-accent {
-    @apply bg-accent border-accent text-accent-content;
+    @apply bg-accent border-accent text-accent-content bg-opacity-50;
   }
 
   &-ghost {
-    @apply bg-base-200 border-base-100 text-base-content;
+    @apply bg-base-200 border-base-100 text-base-content bg-opacity-50;
   }
 
   &-outline {

@@ -1,9 +1,23 @@
 .btn {
-  @apply inline-flex flex-wrap items-center justify-center text-center cursor-pointer select-none transition duration-200 ease-in-out rounded-btn flex-shrink-0;
-  @apply px-4 leading-loose text-sm min-h-12;
+  @apply inline-flex flex-wrap items-center justify-center text-center cursor-pointer select-none transition duration-200 ease-in-out rounded-btn flex-shrink-0 focus:outline-none;
+  @apply px-4 py-2 rounded-box text-sm;
   &:focus {
     @apply outline-none;
   }
+  &.btn-xl{
+    @apply px-10 py-4;
+  }
+  &.btn-lg{
+    @apply px-5 py-3;
+  },
+  &.btn-sm{
+    @apply px-3 py-1;
+  },
+  &.btn-xs{
+    @apply px-1;
+  },
+
+  
 
   /* disabled */
   &-disabled,
@@ -13,10 +27,10 @@
 
   /* shapes */
   &-square {
-    @apply h-12 w-12 p-0;
+    @apply h-10 w-10 p-0;
   }
   &-circle {
-    @apply rounded-full h-12 w-12 p-0;
+    @apply rounded-full h-10 w-10 p-0;
   }
 
   /* loading */
