@@ -1,7 +1,7 @@
 .textarea {
   @apply bg-base-200 rounded-box text-base-content text-sm shadow cursor-pointer;
   &-bordered {
-    @apply border border-base-300 bg-base-100;
+    @apply border-2 border-base-200 bg-base-100;
   }
   &:hover {
     @apply shadow-sm;
