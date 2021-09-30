@@ -52,19 +52,19 @@
     }
   }
   &-primary {
-    @apply border border-base-200;
+    @apply border border-base-300;
     &:focus {
       @apply border-primary ring-2 ring-opacity-20 ring-primary outline-none;
     }
   }
   &-secondary {
-    @apply border border-base-200;
+    @apply border border-base-300;
     &:focus {
       @apply border-secondary ring-2 ring-opacity-20 ring-secondary outline-none;
     }
   }
   &-accent {
-    @apply border border-base-200;
+    @apply border border-base-300;
     &:focus {
       @apply border-accent ring-2 ring-opacity-20 ring-accent outline-none;
     }
