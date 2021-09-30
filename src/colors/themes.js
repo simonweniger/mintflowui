@@ -340,7 +340,7 @@ module.exports = {
     "neutral-focus": "#0B0F17",
     "neutral-content": "#ffffff",
     "base-100": "#FFFFFF",
-    "base-200": "#F4F5F6",
+    "base-200": "#F6F6F6",
     "base-300": "#E6E8EC",
     "base-content": "#000000",
     "info": "#504DEE",
