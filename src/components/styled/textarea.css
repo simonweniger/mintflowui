@@ -1,7 +1,7 @@
 .textarea {
   @apply bg-base-200 rounded-box text-base-content text-sm cursor-pointer;
   &-bordered {
-    @apply border border-base-200 bg-base-100;
+    @apply border border-base-300 bg-base-100;
   }
   &:focus {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);

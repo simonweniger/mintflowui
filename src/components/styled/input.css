@@ -1,7 +1,7 @@
 .input {
   @apply bg-base-200 rounded-box text-base-content text-sm cursor-pointer;
   &-bordered {
-    @apply border border-base-200 bg-base-100;
+    @apply border border-base-300 bg-base-100;
   }
   &:focus {
     @apply border border-neutral shadow-md ring-2 ring-opacity-20 ring-neutral outline-none;
