@@ -36,6 +36,7 @@ import StatList from "./pages/StatsList";
 import TableList from "./pages/TableList";
 import CarouselList from "./pages/CarouselList";
 import StepsList from "./pages/StepsList";
+import SwatchesList from "./pages/SwatchesList";
 
 function App() {
 
@@ -118,6 +119,7 @@ function App() {
                 <Route path="/select" component={SelectList} />
                 <Route path="/textarea" component={TextareaList} />
                 <Route path="/toggle" component={ToggleList} />
+                <Route path="/swatch" component={SwatchesList} />
                 <Route path="/styleguide" component={Styleguide} />
               </Switch>
             </div>

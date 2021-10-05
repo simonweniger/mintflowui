@@ -143,6 +143,9 @@ function Sidebar() {
                                     <Link to="/toggle" className="rounded-lg">
                                             Toggle
                                     </Link>
+                                    <Link to="/swatch" className="rounded-lg">
+                                            Swatch
+                                    </Link>
                                     <Link to="/styleguide" className="rounded-lg">
                                             Styleguide
                                     </Link>

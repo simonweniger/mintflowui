@@ -1,0 +1,49 @@
+.swatch{
+    display: flex;
+    flex-direction: column;
+
+  &-info{
+    padding: 1em;
+  }
+
+  &-title{
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  &-description{
+    font-weight: normal;
+    margin: 0;
+  }
+}
+
+input[type="color"] {
+  @apply w-full h-36 cursor-pointer bg-transparent p-0 border-0 rounded-t-box;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+*:focus{
+  border-radius: 0;
+  outline: none;
+}
+
+::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+::-webkit-color-swatch{
+  border: 0;
+  border-radius: 0;
+}
+
+::-moz-color-swatch,
+::-moz-focus-inner{
+  border: 0;
+}
+
+::-moz-focus-inner{
+  padding: 0;
+}
+

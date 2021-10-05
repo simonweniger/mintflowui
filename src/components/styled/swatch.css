@@ -1,0 +1,18 @@
+.swatch{
+    @apply bg-base-100 rounded-box border border-base-200;
+    max-width: 10em;
+
+    &-title{
+        @apply font-semibold text-lg;
+    }
+      
+    &-description{
+        @apply text-sm opacity-50;
+    }
+    &:hover {
+        @apply shadow-lg;
+    }
+    &:focus {
+        @apply shadow-sm;
+    }
+  }
