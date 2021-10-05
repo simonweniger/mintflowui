@@ -2,7 +2,7 @@ import React from "react";
 
 function Swatch() {
   return (
-    <div className="swatch">
+    <div className="swatch w-44">
     <input type="color" name="color"  />
     <div className="swatch-info">
         <h1 className="swatch-title">Input</h1>
