@@ -6,7 +6,7 @@
   &:focus {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), 0 0 rgba(0,0,0,0);
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
-    @apply border border-neutral ring-2 ring-opacity-20 ring-neutral shadow-md outline-none;
+    @apply border border-neutral ring-2 ring-opacity-20 ring-neutral shadow-md outline-none rounded-box;
   }
   &-ghost {
     @apply bg-opacity-5;

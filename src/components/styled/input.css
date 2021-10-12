@@ -4,7 +4,7 @@
     @apply border border-base-300 bg-base-100;
   }
   &:focus {
-    @apply border border-neutral shadow-md ring-2 ring-opacity-20 ring-neutral outline-none;
+    @apply border border-neutral shadow-md ring-2 ring-opacity-20 ring-neutral outline-none rounded-box;
   }
   &-ghost {
     @apply bg-opacity-5;

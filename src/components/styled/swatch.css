@@ -1,5 +1,5 @@
 .swatch{
-    @apply bg-base-100 rounded-box border border-base-200;
+    @apply bg-base-100 rounded-b-box border border-base-200;
 
     &-title{
         @apply font-semibold text-lg;
