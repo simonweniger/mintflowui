@@ -12,7 +12,7 @@
 
   /* default btn */
   & {
-    @apply bg-neutral border-neutral text-neutral-content;
+    @apply bg-neutral border-neutral text-neutral-content rounded-box;
     &:hover,
     &-active {
       @apply bg-neutral-focus border-neutral-focus;
@@ -29,7 +29,7 @@
   }
   /* brand colors */
   &-primary {
-    @apply bg-primary border-primary text-primary-content;
+    @apply bg-primary border-primary text-primary-content rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-primary-focus border-primary-focus;
@@ -39,7 +39,7 @@
     }
   }
   &-base {
-    @apply bg-base-200 border-none text-base-content;
+    @apply bg-base-200 border-none text-base-content rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-base-300 border-base-300;
@@ -49,7 +49,7 @@
     }
   }
   &-gradient {
-    @apply border-none bg-gradient-to-r from-accent via-primary to-secondary;
+    @apply border-none bg-gradient-to-r from-accent via-primary to-secondary rounded-box;
     &:hover,
     &.btn-active {
       @apply transition duration-500 ease-in-out bg-gradient-to-r from-accent to-primary;
@@ -59,7 +59,7 @@
     }
   }
   &-gradient-two {
-    @apply border-none bg-gradient-to-r from-primary to-accent;
+    @apply border-none bg-gradient-to-r from-primary to-accent rounded-box;
     &:hover,
     &.btn-active {
       @apply transition duration-500 ease-in-out bg-gradient-to-r from-accent to-primary;
@@ -69,7 +69,7 @@
     }
   }
   &-secondary {
-    @apply bg-secondary border-secondary text-secondary-content;
+    @apply bg-secondary border-secondary text-secondary-content rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-secondary-focus border-secondary-focus;
@@ -79,7 +79,7 @@
     }
   }
   &-accent {
-    @apply bg-accent border-accent text-accent-content;
+    @apply bg-accent border-accent text-accent-content rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-accent-focus border-accent-focus;
@@ -95,7 +95,7 @@
 
   /* btn with state colors */
   &-info {
-    @apply bg-info border-info text-base-200;
+    @apply bg-info border-info text-base-200 rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-info border-info;
@@ -105,7 +105,7 @@
     }
   }
   &-success {
-    @apply bg-success border-success text-base-200;
+    @apply bg-success border-success text-base-200 rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-success border-success;
@@ -115,7 +115,7 @@
     }
   }
   &-warning {
-    @apply bg-warning border-warning text-base-200;
+    @apply bg-warning border-warning text-base-200 rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-warning border-warning;
@@ -125,7 +125,7 @@
     }
   }
   &-error {
-    @apply bg-error border-error text-base-200;
+    @apply bg-error border-error text-base-200 rounded-box;
     &:hover,
     &.btn-active {
       @apply bg-error border-error;
@@ -139,7 +139,7 @@
   &.glass{
     &:hover,
     &.btn-active {
-      @apply bg-base-100 opacity-40;
+      @apply bg-base-100 opacity-40 rounded-box;
       backdrop-filter: blur( 16.0px );
       -webkit-backdrop-filter: blur( 16.0px );
     }
@@ -158,17 +158,17 @@
 
   /* btn variants */
   &-ghost {
-    @apply bg-transparent text-current border border-transparent;
+    @apply bg-transparent text-current border border-transparent rounded-box;
     &:hover,
     &.btn-active {
-      @apply bg-base-content bg-opacity-20 border-opacity-0;
+      @apply bg-base-content bg-opacity-20 border-opacity-0 rounded-box;
     }
     &:focus-visible {
       @apply ring-current ring-offset-0;
     }
   }
   &-link {
-    @apply bg-transparent border-transparent text-base-content;
+    @apply bg-transparent border-transparent text-base-content rounded-box;
     &:hover,
     &.btn-active {
       @apply text-primary bg-transparent border-transparent;
@@ -183,7 +183,7 @@
 
   /* outline */
   &-outline {
-    @apply bg-transparent text-base-content border-2 border-base-200;
+    @apply bg-transparent text-base-content border-2 border-base-200 rounded-box;
     &:hover {
       @apply bg-base-content border-base-content text-base-100;
     }
@@ -191,7 +191,7 @@
       @apply ring-current;
     }
     &.btn-base {
-    @apply bg-transparent text-base-content;
+    @apply bg-transparent text-base-content rounded-box;
     &:hover {
       @apply bg-base-200 border-base-300 text-base-content;
     }
@@ -199,19 +199,19 @@
     &.btn-primary {
       @apply text-primary;
       &:hover {
-        @apply bg-primary-focus text-primary-content border-primary-focus;
+        @apply bg-primary-focus text-primary-content border-primary-focus rounded-box;
       }
     }
     &.btn-secondary {
       @apply text-secondary;
       &:hover {
-        @apply bg-secondary-focus text-secondary-content border-secondary-focus;
+        @apply bg-secondary-focus text-secondary-content border-secondary-focus rounded-box;
       }
     }
     &.btn-accent {
       @apply text-accent;
       &:hover {
-        @apply bg-accent-focus text-accent-content border-accent-focus;
+        @apply bg-accent-focus text-accent-content border-accent-focus rounded-box;
       }
     }
   }
@@ -219,7 +219,7 @@
   /* disabled */
   &-disabled,
   &[disabled] {
-    @apply bg-neutral border-opacity-0 bg-opacity-20 text-base-content text-opacity-20;
+    @apply bg-neutral border-opacity-0 bg-opacity-20 text-base-content text-opacity-20 rounded-box;
   }
 
 
@@ -236,7 +236,7 @@
 .btn-group {
   & > input[type="radio"]:checked.btn,
   & > .btn-active {
-    @apply bg-primary border-primary text-primary-content;
+    @apply bg-primary border-primary text-primary-content rounded-box;
     &:focus-visible {
       box-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--p));
     }
