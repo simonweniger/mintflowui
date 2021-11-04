@@ -5,13 +5,15 @@
     height: 80px;
   }
   .loading-default div {
+    @apply bg-base-content;
     position: absolute;
     width: 6px;
     height: 6px;
-    background: #fff;
     border-radius: 50%;
     animation: loading-default 1.2s linear infinite;
-  }
+  }&-primary {
+    @apply bg-primary
+  }; 
   .loading-default div:nth-child(1) {
     animation-delay: 0s;
     top: 37px;
