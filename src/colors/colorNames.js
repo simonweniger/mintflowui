@@ -24,4 +24,6 @@ module.exports = {
   "success"           : "--su",
   "warning"           : "--wa",
   "error"             : "--er",
+
+  "navigation"        : "--nav",
 }

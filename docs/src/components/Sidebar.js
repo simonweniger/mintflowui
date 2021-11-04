@@ -113,6 +113,11 @@ function Sidebar() {
                                     </Link>
                                     </li>
                                     <li>
+                                    <Link to="/loading" className="rounded-lg">
+                                            Loading
+                                    </Link>
+                                    </li>
+                                    <li>
                                     <Link to="/tab" className="rounded-lg">
                                             Tab
                                     </Link>

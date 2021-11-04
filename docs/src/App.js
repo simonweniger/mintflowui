@@ -37,6 +37,7 @@ import TableList from "./pages/TableList";
 import CarouselList from "./pages/CarouselList";
 import StepsList from "./pages/StepsList";
 import SwatchesList from "./pages/SwatchesList";
+import LoadingList from "./pages/LoadingList";
 
 function App() {
 
@@ -109,6 +110,7 @@ function App() {
                 <Route path="/menu" component={MenuList} />
                 <Route path="/modal" component={ModalList} />
                 <Route path="/progress" component={ProgressList} />
+                <Route path="/loading" component={LoadingList} />
                 <Route path="/stat" component={StatList} />
                 <Route path="/steps" component={StepsList} />
                 <Route path="/tab" component={TabList} />

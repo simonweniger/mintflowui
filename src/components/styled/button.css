@@ -12,10 +12,10 @@
 
   /* default btn */
   & {
-    @apply bg-neutral border-neutral text-neutral-content rounded-box;
+    @apply bg-neutral border-neutral text-neutral-content rounded-box transition duration-500 ease-in-out transform ;
     &:hover,
     &-active {
-      @apply bg-neutral-focus border-neutral-focus;
+      @apply bg-neutral-focus border-neutral-focus shadow-xl -translate-y-2;
     }
     &:focus-visible {
       --tw-ringoffset-width: var(--focus-ringoffset, 2px);
@@ -24,69 +24,27 @@
       --tw-ringshadow: var(--tw-ringinset) 0 0 0 calc(var(--focus-ring-2, 2px) + var(--tw-ringoffset-width)) var(--tw-ringcolor);
       box-shadow: var(--tw-ringoffset-shadow), var(--tw-ringshadow), 0 0 rgba(0,0,0,0);
       box-shadow: var(--tw-ringoffset-shadow), var(--tw-ringshadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
-      @apply ring-2 ring-neutral ring-opacity-20;
+      @apply ring-2 ring-neutral ring-opacity-20 scale-95;
     }
   }
   /* brand colors */
   &-primary {
     @apply bg-primary border-primary text-primary-content rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-primary-focus border-primary-focus;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-primary ring-opacity-20;
-    }
   }
   &-base {
     @apply bg-base-200 border-none text-base-content rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-base-300 border-base-300;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-base-300 ring-opacity-20;
-    }
   }
   &-gradient {
     @apply border-none bg-gradient-to-r from-accent via-primary to-secondary rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply transition duration-500 ease-in-out bg-gradient-to-r from-accent to-primary;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-primary ring-opacity-20;
-    }
   }
   &-gradient-two {
     @apply border-none bg-gradient-to-r from-primary to-accent rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply transition duration-500 ease-in-out bg-gradient-to-r from-accent to-primary;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-primary ring-opacity-20;
-    }
   }
   &-secondary {
     @apply bg-secondary border-secondary text-secondary-content rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-secondary-focus border-secondary-focus;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-secondary ring-opacity-20;
-    }
   }
   &-accent {
     @apply bg-accent border-accent text-accent-content rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-accent-focus border-accent-focus;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-accent ring-opacity-20;
-    }
   }
 
   &-glow {
@@ -96,43 +54,15 @@
   /* btn with state colors */
   &-info {
     @apply bg-info border-info text-base-200 rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-info border-info;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-info ring-opacity-20;
-    }
   }
   &-success {
     @apply bg-success border-success text-base-200 rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-success border-success;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-success ring-opacity-20;
-    }
   }
   &-warning {
     @apply bg-warning border-warning text-base-200 rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-warning border-warning;
-    }
-    &:focus-visible {
-      @apply ring-2 ring-warning ring-opacity-20;
-    }
   }
   &-error {
     @apply bg-error border-error text-base-200 rounded-box;
-    &:hover,
-    &.btn-active {
-      @apply bg-error border-error;
-    }
-    &:focus-visible {
-      @apply ring-error;
-    }
   }
 
   /* glass */
