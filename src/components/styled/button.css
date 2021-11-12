@@ -1,12 +1,15 @@
 .btn {
+  @apply: rounded-box;
   border-width: var(--border-btn, 1px);
   animation: button-pop var(--animation-btn, 0.25s) ease-out;
   &:active:hover,
   &:active:focus{
+    @apply: rounded-box;
     animation: none;
   }
   &:active:hover,
   &:active:focus{
+    @apply: rounded-box;
     transform: scale( var(--btn-focus-scale, 0.95) );
   }
 
@@ -15,7 +18,7 @@
     @apply bg-neutral border-neutral text-neutral-content rounded-box transition duration-500 ease-in-out transform ;
     &:hover,
     &-active {
-      @apply bg-neutral-focus border-neutral-focus shadow-xl -translate-y-1 ;
+      @apply bg-neutral-focus border-neutral-focus shadow-xl -translate-y-1 rounded-box;
     }
     &:focus-visible {
       --tw-ringoffset-width: var(--focus-ringoffset, 2px);
@@ -24,7 +27,7 @@
       --tw-ringshadow: var(--tw-ringinset) 0 0 0 calc(var(--focus-ring-2, 2px) + var(--tw-ringoffset-width)) var(--tw-ringcolor);
       box-shadow: var(--tw-ringoffset-shadow), var(--tw-ringshadow), 0 0 rgba(0,0,0,0);
       box-shadow: var(--tw-ringoffset-shadow), var(--tw-ringshadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
-      @apply ring-2 ring-neutral ring-opacity-20 scale-95;
+      @apply ring-2 ring-neutral ring-opacity-20 scale-95 rounded-box;
     }
   }
   /* brand colors */

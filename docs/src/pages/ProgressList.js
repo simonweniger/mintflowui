@@ -7,6 +7,7 @@ import ProgressPrimary from "../components/progress/ProgressPrimary";
 import ProgressSecondary from "../components/progress/ProgressSecondary";
 import ProgressSuccess from "../components/progress/ProgressSuccess";
 import ProgressWarning from "../components/progress/ProgressWarning";
+import ProgressGradient from "../components/progress/ProgressGradient";
 
 function ProgressList() {
   return (
@@ -43,6 +44,10 @@ function ProgressList() {
                     <div className="mb-4 bg-base-100 p-6 rounded-xl">
                         <h1>Cards</h1>
                         <ProgressWarning />                                   
+                    </div>
+                    <div className="mb-4 bg-base-100 p-6 rounded-xl">
+                        <h1>Cards</h1>
+                        <ProgressGradient />                                   
                     </div>
                 </div>
         </div>
